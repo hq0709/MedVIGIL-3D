@@ -1,0 +1,16 @@
+{
+ "organ": "Task06_Lung",
+ "seg_suffix": "_full",
+ "volumes": 3,
+ "probes_compared": 12,
+ "targets_absent_from_mask": 0,
+ "gap_abs_diff_mm": {
+  "median": 0.541,
+  "p90": 1.877,
+  "max": 1.963,
+  "exact_le_0.01mm": 0
+ },
+ "answer_flips": 0,
+ "answer_flip_rate_pct": 0.0,
+ "flip_examples": []
+}

@@ -63,6 +63,14 @@ def main() -> None:
     ap.add_argument("--organ", default="Task03_Liver")
     ap.add_argument("--volumes", type=int, default=20)
     ap.add_argument("--device", default="cuda:0")
+    # The committed sanity_*_montageprompt.jsonl files were produced by editing
+    # this constant rather than by a flag, so the two framings could only ever be
+    # compared across two edits of the source -- and, as it turns out, across two
+    # library stacks: sanity_m3d.jsonl scores 76.4% and re-running it today on
+    # the same 20 volumes scores 42.9%, agreeing on 63.6% of items. A framing
+    # comparison is only meaningful within one stack, so it needs to be one run.
+    ap.add_argument("--framing", choices=["native", "montage"], default="native",
+                    help="prompt framing for the native volumetric families")
     args = ap.parse_args()
 
     fam = FAMILY.get(args.model, "qwen")
@@ -98,8 +106,10 @@ def main() -> None:
             for q, gold, kind in CONTROLS:
                 try:
                     if fam in ("m3d", "med3dvlm"):
+                        template = (NATIVE_PROMPT if args.framing == "native"
+                                    else PROMPT)
                         pred, sc = model.score_choices(
-                            NATIVE_PROMPT.format(q=q, opts="yes, no"),
+                            template.format(q=q, opts="yes, no"),
                             prepared, ["yes", "no"])
                     else:
                         pred, sc = model.score(q, ["yes", "no"], prepared)
