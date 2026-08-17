@@ -1,5 +1,9 @@
 # MedVIGIL-3D — volumetric evaluation harness
 
+> ### ➤ Start here: **[EXPERIMENTS_TO_RUN.md](EXPERIMENTS_TO_RUN.md)**
+> The experiments still needed, ranked, with exact commands and
+> acceptance criteria. Experiment 1 gates the journal submission.
+
 Annotation-free counterfactual probing of medical vision–language models on CT.
 Probe answers are **computed** from geometry rather than annotated: given an
 expert lesion mask and an automatic anatomy segmentation, *"if this lesion grew
