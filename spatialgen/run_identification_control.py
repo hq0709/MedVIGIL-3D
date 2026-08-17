@@ -202,7 +202,8 @@ def main() -> None:
     ap.add_argument("--model", required=True, help="tag from run_multimodel.MODEL_ID")
     ap.add_argument("--condition", choices=CONDITIONS, required=True)
     ap.add_argument("--subset", choices=["matched", "all"], default="matched")
-    ap.add_argument("--device", default="cuda:0")
+    ap.add_argument("--device", default="cuda:0",
+                    help='concrete device ("cuda:0") or "auto" to shard a model too large for one card across every visible GPU')
     ap.add_argument("--out", required=True)
     ap.add_argument("--limit", type=int, default=0, help="0 = no limit (smoke tests)")
     args = ap.parse_args()

@@ -19,8 +19,6 @@ Families and how they receive the volume:
 """
 from __future__ import annotations
 
-import os
-
 import argparse
 import json
 import sys
@@ -121,11 +119,20 @@ class MontageModel:
     """Any HF vision-language model that consumes a single 2D image."""
 
     def __init__(self, model_id: str, device: str):
+        """`device` is either a concrete device ("cuda:0") or "auto".
+
+        "auto" hands device_map to accelerate, which shards the weights across
+        every visible GPU -- required for the 32B and 25B-MoE tags, which do not
+        fit one 80 GB card in bf16. When sharded there is no single model device,
+        so input tensors go to the device holding the input embeddings; sending
+        them to the literal string "auto" is not a device and raises.
+        """
         import torch
         from transformers import AutoModelForCausalLM, AutoProcessor
 
         self.torch = torch
         self.device = device
+        self.sharded = (device == "auto")
         self.model_id = model_id
         _patch_tied_weights_compat()
         # Prefer the natively implemented processor, exactly as the model
@@ -186,6 +193,15 @@ class MontageModel:
         self.model = self.model.eval()
         self._assert_weights_loaded(model_id, info)
 
+    def _resolve_device(self):
+        """Device that model inputs must be placed on."""
+        if not self.sharded:
+            return self.device
+        try:
+            return self.model.get_input_embeddings().weight.device
+        except Exception:
+            return next(self.model.parameters()).device
+
     @staticmethod
     def _assert_weights_loaded(model_id: str, info: dict) -> None:
         """Refuse a model whose pretrained weights did not map onto it.
@@ -224,7 +240,7 @@ class MontageModel:
         out = {}
         for c in choices:
             enc = self.proc(text=[text + c], images=[img],
-                            return_tensors="pt").to(self.device)
+                            return_tensors="pt").to(self._resolve_device())
             n_c = len(self.proc.tokenizer(c, add_special_tokens=False)["input_ids"])
             with self.torch.inference_mode():
                 logits = self.model(**enc).logits[0, :-1].float()
@@ -237,7 +253,7 @@ class MontageModel:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--qa", required=True)
-    ap.add_argument("--data-root", default=os.environ.get("MSD_ROOT", ""))
+    ap.add_argument("--data-root", default="/data/jianghanqi/data")
     ap.add_argument("--model", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--device", default="cuda:0")
