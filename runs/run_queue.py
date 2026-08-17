@@ -108,6 +108,11 @@ def main() -> None:
     ap.add_argument("--skip-existing", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--poll", type=float, default=10.0)
+    ap.add_argument("--pause-file", default="",
+                    help="while this file exists, start no new jobs. Lets a run "
+                         "that needs BOTH cards to itself -- the 72B sharded "
+                         "across them -- take them without killing this queue "
+                         "and losing its place in the job list.")
     ap.add_argument("--share-headroom", type=float, default=0.0,
                     help="GB to leave free for each co-tenant on a shared card. "
                          "When set, the budget is computed from what other users "
@@ -188,9 +193,15 @@ def main() -> None:
             results.append({"label": j["label"], "gpu": r["gpu"], "rc": rc,
                             "ok": ok, "minutes": round(el, 2)})
 
+        if args.pause_file and os.path.exists(args.pause_file) and not running:
+            time.sleep(args.poll)
+            continue
+
         started = True
         while started and queue:
             started = False
+            if args.pause_file and os.path.exists(args.pause_file):
+                break
             for j in list(queue):
                 want = float(j["vram_gb"])
                 cands = [j["gpu"]] if "gpu" in j else sorted(

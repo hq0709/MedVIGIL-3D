@@ -193,20 +193,34 @@ def stratified(items: list[dict], n: int, seed: int = 0) -> list[dict]:
     seen_pairs = set()
     for ans in ("yes", "no"):
         keys = sorted(k for k in buckets if k[3] == ans)
-        per = max(1, half // max(len(keys), 1))
+        pools = {}
         for k in keys:
             v = buckets[k][:]
             rng.shuffle(v)
-            taken = 0
-            for r in v:
-                if taken >= per:
+            pools[k] = v
+        # Round-robin across strata until the half is full, rather than one pass
+        # of `half // len(keys)` per stratum. With n=104 there are ~29 strata per
+        # answer, so that quotient floors to 0, the max(1, ...) turns it into a
+        # single item per stratum, and the draw stopped at 58 of the 104 asked
+        # for -- silently, since nothing downstream compared the two numbers.
+        # The first pass still visits every stratum once, so coverage is
+        # unchanged; the later passes only top the sample up.
+        while len(picked[ans]) < half and any(pools.values()):
+            progressed = False
+            for k in keys:
+                if len(picked[ans]) >= half:
                     break
-                pk = pair_key(r)
-                if pk in seen_pairs:
-                    continue
-                seen_pairs.add(pk)
-                picked[ans].append(r)
-                taken += 1
+                while pools[k]:
+                    r = pools[k].pop()
+                    pk = pair_key(r)
+                    if pk in seen_pairs:
+                        continue
+                    seen_pairs.add(pk)
+                    picked[ans].append(r)
+                    progressed = True
+                    break
+            if not progressed:
+                break
 
     m = min(len(picked["yes"]), len(picked["no"]), half)
     rng.shuffle(picked["yes"])
@@ -218,6 +232,12 @@ def stratified(items: list[dict], n: int, seed: int = 0) -> list[dict]:
         "a matched pair reached the reader form"
     assert sum(r["answer"] == "yes" for r in out) == \
         sum(r["answer"] == "no" for r in out), "reader form is not label-balanced"
+    if len(out) < n:
+        # Say so rather than return a short sample quietly: reader time is the
+        # scarce resource here and the caller chose n for a reason.
+        print(f"stratified: {len(out)} of {n} requested -- the constraint that "
+              f"binds is one probe per (lesion, target) at balanced labels",
+              file=sys.stderr)
     return out
 
 
