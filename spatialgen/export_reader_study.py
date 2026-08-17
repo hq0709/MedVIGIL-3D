@@ -24,6 +24,7 @@ Design decisions worth stating in the paper
 """
 from __future__ import annotations
 
+import os
 import argparse
 import csv
 import json
@@ -259,13 +260,22 @@ def main() -> None:
     form, key = [], []
     n_ok = 0
     for (organ, vid), rs in sorted(by_vol.items()):
-        segp = Path(f"/home/hanqijiang/medai-research/cfqa_{organ}/seg_cache/"
-                    f"{vid}_seg.nii.gz")
+        # Resolve the mask from the repository, not from the absolute path of
+        # the machine this was first run on. The hardcoded
+        # /home/hanqijiang/medai-research/... below found nothing anywhere else,
+        # so every volume was skipped, the form came out empty, and the export
+        # died on `form[0]` -- i.e. the reader study could not be regenerated at
+        # all outside one filesystem.
+        root = Path(os.environ.get("MEDVIGIL3D_ROOT",
+                                   Path(__file__).resolve().parent.parent))
+        segp = root / f"cfqa_{organ}" / "seg_cache" / f"{vid}_seg.nii.gz"
         if not segp.exists():
-            for alt in Path("/home/hanqijiang/medai-research").glob(
-                    f"out_*/seg_cache/{vid}_seg.nii.gz"):
-                segp = alt
-                break
+            for base in (root, Path("/home/hanqijiang/medai-research")):
+                found = next(base.glob(f"out_*/seg_cache/{vid}_seg.nii.gz"), None) \
+                    or next(base.glob(f"cfqa_*/seg_cache/{vid}_seg.nii.gz"), None)
+                if found is not None:
+                    segp = found
+                    break
         labp = Path(args.data_root) / organ / "labelsTr" / f"{vid}.nii.gz"
         volp = Path(args.data_root) / organ / "imagesTr" / f"{vid}.nii.gz"
         if not (segp.exists() and labp.exists() and volp.exists()):
