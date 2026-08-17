@@ -64,6 +64,14 @@ ORGAN_WORD = {"Task03_Liver": "liver", "Task06_Lung": "lung",
 DISTANCE_OPTIONS = [5, 15, 25, 35]
 CONDITION = "identified"          # the only condition that draws both outlines
 
+# `localise` asks which organ holds the red outline, but the body region alone
+# answers it: a chest CT is the lung task and an abdominal one is not, whether or
+# not the model ever sees the outline. Running the same question on `plain`,
+# which draws no outline at all and drops the legend sentence with it, separates
+# "perceives the annotation" from "recognises the body region". Any gap between
+# the two is what the annotation is worth; no gap means the sub-task measures
+# anatomy recognition and cannot support a claim about binding.
+
 
 def bucket(gap_mm: float) -> str:
     """Nearest option, which is what the question asks for."""
@@ -76,10 +84,19 @@ def question_for(subtask: str, pair: dict, rng: random.Random) -> tuple:
         gold = ORGAN_WORD[pair["organ"]]
         choices = sorted(ORGAN_WORD.values())
         q = ("Which organ contains the lesion outlined in red? "
+             "Answer with exactly one of: {opts}."
+             if pair.get("annotated", True) else
+             "Which organ is shown in these views? "
              "Answer with exactly one of: {opts}.")
     elif subtask == "name":
         gold = target
-        pool = [t.replace("_", " ") for t in pair["all_targets"] if t != pair["target"]]
+        # Distractors come from targets that occur in probes for THIS organ, not
+        # from all 29 in the corpus. A sternum offered against an abdominal scan
+        # is eliminable from body region alone, which would let the sub-task be
+        # answered without ever resolving the cyan outline -- the thing it exists
+        # to measure.
+        pool = [t.replace("_", " ") for t in pair["organ_targets"]
+                if t != pair["target"]]
         choices = [gold] + rng.sample(pool, min(3, len(pool)))
         q = ("Which structure is outlined in cyan? "
              "Answer with exactly one of: {opts}.")
@@ -103,6 +120,10 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--device", default="cuda:0")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--condition", default=CONDITION,
+                    choices=["identified", "plain", "bestslice", "overlay"],
+                    help="rendering to ask the sub-task about. `plain` is the "
+                         "no-annotation control for `localise`.")
     ap.add_argument("--render-cache",
                     default=str(Path(__file__).resolve().parent.parent
                                 / "render_cache"))
@@ -133,6 +154,12 @@ def main() -> None:
                       "organ": r["organ"], "target": r["provenance"]["target"],
                       "gap_mm": float(r["provenance"]["gap_mm"])}
     all_targets = sorted({p["target"] for p in pairs.values()})
+    organ_targets = defaultdict(set)
+    for p in pairs.values():
+        organ_targets[p["organ"]].add(p["target"])
+    print("targets per organ: "
+          + ", ".join(f"{o.split('_')[-1]} {len(t)}"
+                      for o, t in sorted(organ_targets.items())), flush=True)
 
     by_organ = defaultdict(list)
     for p in pairs.values():
@@ -154,17 +181,19 @@ def main() -> None:
     model = MontageModel(MODEL_ID[args.model], args.device)
     print("model ready", flush=True)
 
-    legend = legend_for(CONDITION)
+    legend = legend_for(args.condition)
     written = missing = 0
     with open(args.out, "w") as fout:
         for p in picked:
             p["all_targets"] = all_targets
+            p["organ_targets"] = sorted(organ_targets[p["organ"]])
+            p["annotated"] = args.condition in ("overlay", "identified")
             qrng = random.Random(f"{args.seed}:{p['pair_id']}:{args.subtask}")
             question, gold, choices = question_for(args.subtask, p, qrng)
             try:
                 image, geom = cached_render(
                     args.render_cache, p["organ"], p["vid"], p["lesion"],
-                    p["target"], CONDITION,
+                    p["target"], args.condition,
                     lambda: (_ for _ in ()).throw(
                         LookupError("render not in cache; run runs/prerender.py")))
             except LookupError as exc:
@@ -180,7 +209,8 @@ def main() -> None:
             pred, lp = score_choices(model, text, choices, images=[image])
             fout.write(json.dumps({
                 "qid": f"{p['pair_id']}_{args.subtask}", "organ": p["organ"],
-                "condition": f"subtask-{args.subtask}",
+                "condition": (f"subtask-{args.subtask}" if args.condition == CONDITION
+                              else f"subtask-{args.subtask}-{args.condition}"),
                 "prediction": pred, "gold": gold, "pair_id": None,
                 "logprobs": lp, "choices": choices, "asked": question,
                 "gap_mm": p["gap_mm"], "geometry": geom,
