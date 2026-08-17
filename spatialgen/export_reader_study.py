@@ -38,7 +38,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).parent))
 
 from medvigil3d import tier_of  # noqa: E402
-from render import _rescale, window  # noqa: E402
+from render import _rescale, montage_rgb, to_display, window  # noqa: E402
 from run_pipeline import label_map  # noqa: E402
 from scene_graph import load_ras  # noqa: E402
 
@@ -122,7 +122,11 @@ def render_case(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
         g = window(vol, preset)[tuple(sl)]
         le = outline(lesion[tuple(sl)])
         tg = outline(target[tuple(sl)])
-        g, le, tg = (a.T[::-1] for a in (g, le, tg))
+        # to_display, not `.T[::-1]`: the latter is the vertical flip only, so
+        # the axial and coronal panels came out mirrored against the montage every
+        # model was scored on -- a patient left/right swap, in the images used to
+        # argue a human-versus-model comparison.
+        g, le, tg = (to_display(a, ax) for a in (g, le, tg))
         # Resample to square pixels, as render.orthogonal_views does. Without this
         # the reader saw coronal and sagittal panels compressed ~7x along z while
         # being asked for a metric judgement, and the panels did not match what any
@@ -141,15 +145,11 @@ def render_case(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
         rgb[h - 8:h - 5, 6:6 + min(n, w - 12)] = [255, 255, 255]
         return rgb
 
-    panels = [panel(a, k) for a, k in zip(axes, idx)]
-    h = max(p.shape[0] for p in panels)
-    out = []
-    for p in panels:
-        pad = np.zeros((h, p.shape[1], 3), np.uint8)
-        pad[: p.shape[0]] = p
-        out.append(pad)
-        out.append(np.zeros((h, 4, 3), np.uint8))
-    return np.hstack(out[:-1])
+    # Composite through the shared rule so this image and the identification
+    # control's `identified` arm are the same picture; zero-padding against a
+    # black gutter here while the control scaled up against a grey one meant the
+    # reader and the model were not being shown the same thing.
+    return montage_rgb([panel(a, k) for a, k in zip(axes, idx)])
 
 
 def stratified(items: list[dict], n: int, seed: int = 0) -> list[dict]:

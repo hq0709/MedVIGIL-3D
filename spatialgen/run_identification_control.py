@@ -76,7 +76,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from export_reader_study import _best_slice, outline           # noqa: E402
 from lesion_binding import LESION_LABEL, find_lesions          # noqa: E402
-from render import _rescale, montage, orthogonal_views, window  # noqa: E402
+from render import (_rescale, montage, montage_rgb, orthogonal_views,  # noqa: E402
+                    to_display, window)
 from scene_graph import load_ras                               # noqa: E402
 
 IMAGE_CONDITIONS = ["plain", "bestslice", "overlay", "identified"]
@@ -291,7 +292,16 @@ def render(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
         if annotate:
             outline_px["lesion"] += int(le.sum())
             outline_px["target"] += int(tg.sum())
-        g, le, tg = (x.T[::-1] for x in (g, le, tg))
+        # Orientation must match render._to_display, not just its vertical flip.
+        # orthogonal_views renders sagittal with flip_h=False and coronal and
+        # axial with flip_h=True; `.T[::-1]` alone is flip_v only, so those two
+        # panels came out mirrored left-to-right against `plain`. Measured on
+        # liver_0 before this line was added: axial and coronal matched `plain`
+        # in 49.0% and 8.9% of pixels, and in 100.0% and 99.9% once flipped
+        # horizontally. That is a patient-left/right swap on two of three panels,
+        # and it sat inside the very comparison this script exists to make.
+        # Flip before resampling, because _to_display runs before _rescale.
+        g, le, tg = (to_display(x, a) for x in (g, le, tg))
         # row/col physical spacing of this panel after the transpose, matching
         # render.orthogonal_views: rows are the higher-numbered remaining axis
         rem = [i for i in (0, 1, 2) if i != a]
@@ -308,7 +318,7 @@ def render(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
             rgb[h - 8:h - 5, 6:6 + min(n, w - 12)] = [255, 255, 255]
         panels.append(rgb)
 
-    return _montage_rgb(panels), {"slices": [int(i) for i in idx],
+    return montage_rgb(panels), {"slices": [int(i) for i in idx],
                                   "lesion_voxels_shown": seen_px["lesion"],
                                   "target_voxels_shown": seen_px["target"],
                                   "lesion_outline_px": outline_px["lesion"],
@@ -743,5 +753,65 @@ def main() -> None:
               "they are excluded from both arms so the comparison stays paired")
 
 
+
+def selftest() -> None:
+    """Assert the parity properties this script's validity rests on.
+
+    Written because the first version of `render` silently lost them and the
+    check that was supposed to catch it -- comparing the `plain` arm's accuracy
+    against the published number -- could not: both were at chance, so a
+    renderer that showed the model z-squashed, left-right mirrored panels
+    produced a number indistinguishable from a correct one. Parity is a property
+    of the pixels and has to be tested on the pixels.
+
+    Synthetic volume, deliberately anisotropic (0.7 x 0.7 x 5 mm, the spacing
+    that makes the resampling matter), so this runs with no data present.
+    """
+    from export_reader_study import render_case
+
+    rng = np.random.default_rng(0)
+    vol = rng.integers(-200, 200, size=(64, 60, 24), dtype=np.int16)
+    lesion = np.zeros(vol.shape, bool)
+    lesion[20:26, 18:24, 8:11] = True
+    target = np.zeros(vol.shape, bool)
+    target[40:52, 34:46, 14:19] = True
+    spacing = np.array([0.703125, 0.703125, 5.0])
+
+    plain, geom = render(vol, lesion, target, spacing, "plain")
+    published = np.dstack([montage(orthogonal_views(vol, spacing).available())] * 3)
+    assert np.array_equal(plain, published), \
+        "`plain` is not the published condition; the paired control is invalid"
+
+    shapes = {}
+    for cond in IMAGE_CONDITIONS:
+        img, g = render(vol, lesion, target, spacing, cond)
+        shapes[cond] = img.shape
+        assert set(g) >= {"slices", "lesion_voxels_shown", "lesion_outline_px"}
+    assert len(set(shapes.values())) == 1, \
+        f"conditions differ in shape, so they differ in vision tokens: {shapes}"
+
+    ident, _ = render(vol, lesion, target, spacing, "identified")
+    assert np.array_equal(ident, render_case(vol, lesion, target, spacing)), \
+        "`identified` is not what the reader is shown; the arm is not comparable"
+
+    # the annotated arms must agree with `plain` wherever they draw nothing
+    ov, _ = render(vol, lesion, target, spacing, "overlay")
+    drawn = ((ov == LESION_RGB).all(-1)) | ((ov == TARGET_RGB).all(-1))
+    agree = ((ov == plain).all(-1) | drawn).mean()
+    assert agree > 0.99, \
+        f"`overlay` differs from `plain` outside its annotation on {100*(1-agree):.1f}% of pixels"
+
+    # the bar must be 10 mm in the panel's own post-resample spacing
+    iso = min(spacing[0], spacing[1])
+    assert abs(int(round(10.0 / iso)) * iso - 10.0) < iso, "scale bar is not 10 mm"
+
+    print(f"selftest OK -- plain bit-exact against the published path, all four "
+          f"conditions {shapes['plain']}, identified == render_case, overlay "
+          f"agrees with plain on {100*agree:.2f}% of unannotated pixels")
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "selftest":
+        selftest()
+    else:
+        main()

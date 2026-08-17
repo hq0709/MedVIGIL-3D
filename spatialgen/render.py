@@ -137,6 +137,42 @@ def montage(views: dict[str, np.ndarray], pad: int = 8) -> np.ndarray:
     return np.hstack(tiles[:-1])
 
 
+def montage_rgb(panels: list[np.ndarray], pad: int = 8) -> np.ndarray:
+    """`montage` for colour panels, following it rule for rule.
+
+    Lives here rather than in a caller because two callers need it to agree:
+    the identification control's annotated arms and the reader study's export.
+    When each kept its own compositing they diverged -- one scaled short panels
+    up to the common height and used the 128-grey gutter this module has always
+    used, the other zero-padded them against a black gutter -- so the reader was
+    not looking at the image the `identified` arm claims to reproduce.
+    """
+    from scipy.ndimage import zoom
+
+    h = max(p.shape[0] for p in panels)
+    tiles = []
+    for p in panels:
+        if p.shape[0] != h:
+            f = h / p.shape[0]
+            p = zoom(p, (f, f, 1), order=1).astype(np.uint8)
+        tiles.append(p)
+        tiles.append(np.full((h, pad, 3), 128, dtype=np.uint8))
+    return np.hstack(tiles[:-1])
+
+
+def to_display(plane: np.ndarray, axis: int) -> np.ndarray:
+    """Orient a plane taken by fixing `axis`, as orthogonal_views does.
+
+    The flips are not decoration. `orthogonal_views` renders sagittal with
+    flip_h=False and coronal and axial with flip_h=True; a caller that applies
+    only the transpose and the vertical flip produces those two panels mirrored
+    left-to-right, which on an axial CT swaps the patient's left and right and,
+    inside this study, silently differed between the control arm and the
+    published condition it is compared against.
+    """
+    return _to_display(plane, flip_v=True, flip_h=axis in (1, 2))
+
+
 def save_png(img: np.ndarray, path: str) -> None:
     from PIL import Image
     Image.fromarray(img).save(path)
