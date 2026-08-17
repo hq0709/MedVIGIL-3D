@@ -110,6 +110,17 @@ def complete_pairs(rows: list[dict]) -> list[list[dict]]:
 
     So `acc_pairs` below is the endpoint to read for the ceiling arms, and the
     pooled figure is reported beside it rather than instead of it.
+
+    It is not, however, a cue-free endpoint, and reporting it as one would be
+    the same mistake one level down. Holding gap fixed leaves the growth amount
+    free, and a single threshold on growth alone scores 83.7% across the
+    complete pairs (against 50.8% on the pooled matched subset -- the matching
+    balanced growth globally by combining a pair half where it is highly
+    predictive with a singleton half where it is not). The pair endpoint is the
+    right one here because the manipulation under test reveals the GAP, and the
+    growth amount sits in the question text identically in every arm; that no
+    model scores anywhere near 83.7% is the evidence that none is thresholding
+    on it.
     """
     by_pair = defaultdict(list)
     for r in rows:
@@ -212,10 +223,16 @@ def main() -> None:
                          "delta_ci_hi": "", "delta_excludes_zero": ""})
 
     # Paired contrast against `plain`, the reproduction of the published input.
+    # Reported twice: over every probe both arms scored, and over the matched
+    # pairs alone. They can disagree, and when they do the pair column is the
+    # one that speaks to the counterfactual -- a condition that reveals the
+    # distance lifts the pooled number through the singletons, where gap
+    # magnitude predicts the label, while leaving the pairs at chance.
     print("\nPaired difference from `plain` on the probes both arms scored")
     print(f"{'model':10}{'condition':19}{'n':>7}{'vols':>6}{'delta':>9}"
-          f"{'95% CI':>18}{'excl. 0':>9}")
-    print("-" * 78)
+          f"{'95% CI':>18}{'excl. 0':>9}   {'pairs only':>10}{'95% CI':>18}"
+          f"{'excl. 0':>9}")
+    print("-" * 118)
     idx = {r["model"] + "|" + r["condition"]: r for r in out_rows}
     for key in sorted(pooled, key=rank):
         model, cond = key
@@ -232,8 +249,27 @@ def main() -> None:
                 - float(P[q]["prediction"] == P[q]["gold"]))
         d, lo, hi = cluster_ci(by_vol)
         excl = "yes" if (lo > 0 or hi < 0) else "no"
+
+        # same contrast, restricted to pairs complete in BOTH arms
+        pa = {p["pair_id"] for pair in complete_pairs(list(A.values()))
+              for p in pair}
+        pp = {p["pair_id"] for pair in complete_pairs(list(P.values()))
+              for p in pair}
+        shared = pa & pp
+        pvol = defaultdict(list)
+        for q in qs:
+            if A[q].get("pair_id") in shared:
+                pvol[volume_of(q)].append(
+                    float(A[q]["prediction"] == A[q]["gold"])
+                    - float(P[q]["prediction"] == P[q]["gold"]))
+        if pvol:
+            pd_, plo, phi = cluster_ci(pvol)
+            pexcl = "yes" if (plo > 0 or phi < 0) else "no"
+            pair_cols = f"{pd_:>+10.1f}  [{plo:+5.1f},{phi:+5.1f}]{pexcl:>9}"
+        else:
+            pair_cols = f"{'—':>10}{'—':>18}{'—':>9}"
         print(f"{model:10}{cond:19}{len(qs):>7}{len(by_vol):>6}{d:>+8.1f}"
-              f"  [{lo:+5.1f},{hi:+5.1f}]{excl:>9}")
+              f"  [{lo:+5.1f},{hi:+5.1f}]{excl:>9}   {pair_cols}")
         row = idx[model + "|" + cond]
         row.update({"delta_vs_plain": round(d, 2), "delta_ci_lo": round(lo, 2),
                     "delta_ci_hi": round(hi, 2), "delta_excludes_zero": excl})

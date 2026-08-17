@@ -375,13 +375,21 @@ def score_choices(model, text: str, choices: list[str], images=None) -> tuple:
 
 
 def generate_answer(model, text: str, choices: list[str],
-                    max_new_tokens: int = 12) -> tuple[str, dict]:
+                    max_new_tokens: int = 128) -> tuple[str, dict]:
     """Greedy decode, then take the first option word that appears.
 
     `prediction` is set to "unparsed" when the continuation names no option, and
     the raw text is kept on every row. Silently folding an unparsable answer
     into one of the options is how a decoding failure turns into an apparent
     preference for that option; the rate of unparsed answers is itself reported.
+
+    The budget is 128 rather than the dozen tokens an answer needs, because
+    models differ in how they open. Qwen2.5-VL-7B replies "No."; Qwen2.5-VL-32B
+    opens "To determine if the lesion would contact the esophagus after..." and
+    a 12-token budget cut it off before any answer, scoring the arm 0.1% with
+    100% unparsed -- a measurement artefact that looks exactly like a
+    catastrophic result. Greedy decoding is prefix-deterministic, so a larger
+    budget cannot change the answer of a model that already answered.
     """
     enc = model.proc(text=[text], return_tensors="pt").to(model._resolve_device())
     with model.torch.inference_mode():
