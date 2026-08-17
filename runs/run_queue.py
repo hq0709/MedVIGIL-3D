@@ -52,6 +52,53 @@ def free_gb(gpu: int) -> float:
     return (total - used) / 1024.0
 
 
+def foreign_gb(gpu: int) -> tuple[float, set[str]]:
+    """Memory on `gpu` held by users other than this one, and who they are."""
+    me = os.environ.get("USER") or str(os.getuid())
+    uuid = subprocess.run(
+        ["nvidia-smi", "--query-gpu=uuid", "--format=csv,noheader", "-i", str(gpu)],
+        capture_output=True, text=True).stdout.strip()
+    apps = subprocess.run(
+        ["nvidia-smi", "--query-compute-apps=gpu_uuid,pid,used_memory",
+         "--format=csv,noheader,nounits"],
+        capture_output=True, text=True).stdout.strip().splitlines()
+    total, who = 0.0, set()
+    for line in apps:
+        parts = [p.strip() for p in line.split(",")]
+        if len(parts) != 3 or parts[0] != uuid:
+            continue
+        owner = subprocess.run(["ps", "-o", "user=", "-p", parts[1]],
+                               capture_output=True, text=True).stdout.strip()
+        if owner and owner != me:
+            total += float(parts[2]) / 1024.0
+            who.add(owner)
+    return total, who
+
+
+def share_aware_budget(gpu: int, headroom: float) -> float:
+    """Budget that leaves a co-tenant room to grow.
+
+    Scheduling against free memory is right on a card we own and wrong on a
+    shared one: a neighbour's training job that has allocated 10 GB so far may
+    still climb to its steady-state peak, and taking the rest of the card means
+    it dies rather than us. `headroom` is what we promise to leave them beyond
+    what they already hold -- set it from what their job has peaked at before,
+    not from what it holds right now.
+    """
+    total = subprocess.run(
+        ["nvidia-smi", "--query-gpu=memory.total", "--format=csv,noheader,nounits",
+         "-i", str(gpu)], capture_output=True, text=True).stdout.strip()
+    cap = float(total) / 1024.0
+    held, who = foreign_gb(gpu)
+    if not who:
+        return max(0.0, cap - RESERVE_GB)
+    budget = max(0.0, cap - held - headroom)
+    print(f"gpu{gpu} is shared with {', '.join(sorted(who))} "
+          f"({held:.1f} GB held); leaving them {headroom:.0f} GB of headroom, "
+          f"taking {budget:.1f} GB", flush=True)
+    return budget
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("--jobs", required=True)
@@ -61,6 +108,10 @@ def main() -> None:
     ap.add_argument("--skip-existing", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--poll", type=float, default=10.0)
+    ap.add_argument("--share-headroom", type=float, default=0.0,
+                    help="GB to leave free for each co-tenant on a shared card. "
+                         "When set, the budget is computed from what other users "
+                         "already hold plus this, instead of from free memory.")
     ap.add_argument("--budget", default="",
                     help='explicit per-card budget in GB, e.g. "6:76,7:24". '
                          "Use this when a card is shared with someone else's "
@@ -73,7 +124,10 @@ def main() -> None:
     logdir = repo / args.logdir
     logdir.mkdir(parents=True, exist_ok=True)
     gpus = [int(g) for g in args.gpus.split(",")]
-    budget = {g: max(0.0, free_gb(g) - RESERVE_GB) for g in gpus}
+    if args.share_headroom:
+        budget = {g: share_aware_budget(g, args.share_headroom) for g in gpus}
+    else:
+        budget = {g: max(0.0, free_gb(g) - RESERVE_GB) for g in gpus}
     for item in filter(None, args.budget.split(",")):
         g, gb = item.split(":")
         budget[int(g)] = float(gb)
