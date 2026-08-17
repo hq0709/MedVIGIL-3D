@@ -36,6 +36,13 @@ FAMILY = {
     "Qwen/Qwen2.5-VL-3B-Instruct": "qwen",
     "Qwen/Qwen2.5-VL-7B-Instruct": "qwen",
     "Qwen/Qwen2.5-VL-32B-Instruct": "qwen",
+    # E4, scale. 72.7B params = 146.8 GB of bf16 weights, so this needs
+    # `--device auto` across two 80 GB cards and leaves ~12 GB for activations;
+    # it cannot share either card with anything else. The other two candidates
+    # in EXPERIMENTS_TO_RUN.md do not fit this box and are deliberately absent:
+    # InternVL3-78B is 156.8 GB (2.4 GB of headroom on 2x80 GB, which activations
+    # exceed) and Llama-3.2-90B-Vision is 177.2 GB and gated.
+    "Qwen/Qwen2.5-VL-72B-Instruct": "qwen",
     # the "-hf" repo, not OpenGVLab/InternVL3-8B. The original is model_type
     # `internvl_chat` whose AutoProcessor resolves to a bare Qwen2Tokenizer with
     # no `.tokenizer` and no image handling; the -hf conversion is model_type
@@ -69,6 +76,7 @@ MODEL_ID = {
     "qwen": "Qwen/Qwen2.5-VL-7B-Instruct",
     "qwen7b": "Qwen/Qwen2.5-VL-7B-Instruct",
     "qwen32b": "Qwen/Qwen2.5-VL-32B-Instruct",
+    "qwen72b": "Qwen/Qwen2.5-VL-72B-Instruct",
     "qwen3vl": "Qwen/Qwen3-VL-8B-Instruct",
     "internvl": "OpenGVLab/InternVL3-8B-hf",
     "internvl14": "OpenGVLab/InternVL3-14B-hf",
@@ -243,10 +251,17 @@ class MontageModel:
                             return_tensors="pt").to(self._resolve_device())
             n_c = len(self.proc.tokenizer(c, add_special_tokens=False)["input_ids"])
             with self.torch.inference_mode():
-                logits = self.model(**enc).logits[0, :-1].float()
+                logits = self.model(**enc).logits[0, :-1]
             tgt = enc["input_ids"][0, 1:]
-            lp = self.torch.log_softmax(logits, dim=-1)
-            out[c] = float(lp[-n_c:].gather(1, tgt[-n_c:, None]).mean())
+            # Only the option's own token positions are ever read, so cast and
+            # normalise just those rows. log_softmax is row-wise, so this is the
+            # same number to the bit -- but the discarded work was not free: a
+            # montage tiled to ~3,000 vision tokens against a 152k vocabulary
+            # makes the full float32 logits 1.8 GB, allocated per option per
+            # probe, and that allocation is what pushed three 8B jobs sharing a
+            # card into CUDA OOM at the log_softmax line.
+            lp = self.torch.log_softmax(logits[-n_c:].float(), dim=-1)
+            out[c] = float(lp.gather(1, tgt[-n_c:, None]).mean())
         return max(out, key=out.get), out
 
 

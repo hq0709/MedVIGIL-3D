@@ -8,3 +8,11 @@ cfqa_*/vol_cache/
 reader_study/images/
 __pycache__/
 *.pyc
+
+# regenerable bulk, added with the identification-control runs
+cfqa_*/seg_cache_fast/
+cfqa_*/seg_cache_full/
+render_cache/
+logs/
+*.part
+*.jsonl.part
