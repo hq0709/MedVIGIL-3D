@@ -76,7 +76,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from export_reader_study import _best_slice, outline           # noqa: E402
 from lesion_binding import LESION_LABEL, find_lesions          # noqa: E402
-from render import window                                      # noqa: E402
+from render import _rescale, montage, orthogonal_views, window  # noqa: E402
 from scene_graph import load_ras                               # noqa: E402
 
 IMAGE_CONDITIONS = ["plain", "bestslice", "overlay", "identified"]
@@ -161,6 +161,56 @@ def lesion_key(qid: str) -> str | None:
     return None
 
 
+
+
+def _montage_rgb(panels, pad: int = 8):
+    """RGB counterpart of render.montage, matching it rule for rule.
+
+    render.montage scales a short panel up to the common height rather than
+    padding it, and separates panels with a 128-grey gutter. Zero-padding with a
+    black gutter -- which an earlier version of this file did -- changes both the
+    aspect ratio and the vision-token layout relative to the published condition.
+    """
+    from scipy.ndimage import zoom
+
+    h = max(p.shape[0] for p in panels)
+    tiles = []
+    for p in panels:
+        if p.shape[0] != h:
+            f = h / p.shape[0]
+            p = zoom(p, (f, f, 1), order=1).astype(np.uint8)
+        tiles.append(p)
+        tiles.append(np.full((h, pad, 3), 128, dtype=np.uint8))
+    return np.hstack(tiles[:-1])
+
+def _isotropic(grey, lesion2d, target2d, sr, sc):
+    """Resample a panel to square pixels, exactly as render.orthogonal_views does.
+
+    Omitting this was a real bug in the first version of this script: CT is
+    routinely 0.7 x 0.7 x 5 mm, so an unresampled coronal or sagittal panel is
+    compressed ~7x along z. `render.orthogonal_views` applies `_rescale` for
+    precisely this reason -- its docstring says showing CT unscaled "distorts
+    every vertical distance judgement the model is being asked to make" -- and a
+    `plain` arm that skipped it would not have been the published condition, so
+    the paired comparison this script exists to make would have been invalid.
+
+    Masks are resampled filled and re-thresholded rather than resampling the
+    outlines, because order-1 zoom thins a one-pixel contour until it disappears.
+    Returns the resampled panel plus the post-resample isotropic spacing, which is
+    what the scale bar must be drawn from.
+    """
+    grey = _rescale(grey, (sr, sc))
+    out = []
+    for m in (lesion2d, target2d):
+        r = _rescale((m * 255).astype(np.uint8), (sr, sc)) > 127
+        # _rescale is a no-op when the axes already match; keep shapes aligned
+        if r.shape != grey.shape:
+            r = r[: grey.shape[0], : grey.shape[1]]
+            pad = [(0, grey.shape[i] - r.shape[i]) for i in range(2)]
+            r = np.pad(r, pad)
+        out.append(r)
+    return grey, out[0], out[1], min(sr, sc)
+
 def render(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
            spacing: np.ndarray, condition: str,
            preset: str = "soft_tissue") -> tuple[np.ndarray, dict]:
@@ -182,6 +232,28 @@ def render(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
     reported. So the geometry is recorded per probe: whether each structure
     appears on the slices shown at all, and how many outline pixels were drawn.
     """
+    if condition == "plain":
+        # bit-exact reproduction of the published condition: the same call the
+        # audit made. Reimplementing it invited exactly the drift that an earlier
+        # version of this function shipped.
+        g = montage(orthogonal_views(vol, spacing).available())
+        # Same three centre slices orthogonal_views takes, so the visibility
+        # record is the published condition's own and not this branch's idea of
+        # it. Nothing is annotated here, so the outline counts are zero by
+        # construction rather than by measurement.
+        idx = [vol.shape[a] // 2 for a in (2, 1, 0)]
+        shown = {"lesion": 0, "target": 0}
+        for a, k in zip((2, 1, 0), idx):
+            sl = [slice(None)] * 3
+            sl[a] = int(np.clip(k, 0, vol.shape[a] - 1))
+            shown["lesion"] += int(lesion[tuple(sl)].sum())
+            shown["target"] += int(target[tuple(sl)].sum())
+        return np.dstack([g] * 3), {"slices": [int(i) for i in idx],
+                                    "lesion_voxels_shown": shown["lesion"],
+                                    "target_voxels_shown": shown["target"],
+                                    "lesion_outline_px": 0,
+                                    "target_outline_px": 0}
+
     axes = [2, 1, 0]
     if condition in ("bestslice", "identified"):
         idx = [_best_slice(lesion, a, target) for a in axes]
@@ -220,30 +292,27 @@ def render(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
             outline_px["lesion"] += int(le.sum())
             outline_px["target"] += int(tg.sum())
         g, le, tg = (x.T[::-1] for x in (g, le, tg))
+        # row/col physical spacing of this panel after the transpose, matching
+        # render.orthogonal_views: rows are the higher-numbered remaining axis
+        rem = [i for i in (0, 1, 2) if i != a]
+        g, le, tg, iso = _isotropic(g, le, tg,
+                                    float(spacing[rem[1]]), float(spacing[rem[0]]))
         rgb = np.dstack([g] * 3)
         if annotate:
             rgb[le] = LESION_RGB
             rgb[tg] = TARGET_RGB
         if scalebar:
-            ip = [sp for i, sp in enumerate(spacing) if i != a][0]
-            n = max(4, int(round(10.0 / float(ip))))
+            # after resampling both axes share `iso` mm/px, so the bar is metric
+            n = max(4, int(round(10.0 / iso)))
             h, w = rgb.shape[:2]
             rgb[h - 8:h - 5, 6:6 + min(n, w - 12)] = [255, 255, 255]
         panels.append(rgb)
 
-    h = max(p.shape[0] for p in panels)
-    pad = 8
-    out = np.zeros((h, sum(p.shape[1] for p in panels) + pad * (len(panels) - 1), 3),
-                   np.uint8)
-    x = 0
-    for p in panels:
-        out[: p.shape[0], x: x + p.shape[1]] = p
-        x += p.shape[1] + pad
-    return out, {"slices": [int(i) for i in idx],
-                 "lesion_voxels_shown": seen_px["lesion"],
-                 "target_voxels_shown": seen_px["target"],
-                 "lesion_outline_px": outline_px["lesion"],
-                 "target_outline_px": outline_px["target"]}
+    return _montage_rgb(panels), {"slices": [int(i) for i in idx],
+                                  "lesion_voxels_shown": seen_px["lesion"],
+                                  "target_voxels_shown": seen_px["target"],
+                                  "lesion_outline_px": outline_px["lesion"],
+                                  "target_outline_px": outline_px["target"]}
 
 
 def legend_for(condition: str) -> str:

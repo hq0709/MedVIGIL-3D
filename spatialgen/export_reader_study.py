@@ -24,8 +24,6 @@ Design decisions worth stating in the paper
 """
 from __future__ import annotations
 
-import os
-
 import argparse
 import csv
 import json
@@ -40,7 +38,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).parent))
 
 from medvigil3d import tier_of  # noqa: E402
-from render import window  # noqa: E402
+from render import _rescale, window  # noqa: E402
 from run_pipeline import label_map  # noqa: E402
 from scene_graph import load_ras  # noqa: E402
 
@@ -125,11 +123,20 @@ def render_case(vol: np.ndarray, lesion: np.ndarray, target: np.ndarray,
         le = outline(lesion[tuple(sl)])
         tg = outline(target[tuple(sl)])
         g, le, tg = (a.T[::-1] for a in (g, le, tg))
+        # Resample to square pixels, as render.orthogonal_views does. Without this
+        # the reader saw coronal and sagittal panels compressed ~7x along z while
+        # being asked for a metric judgement, and the panels did not match what any
+        # model was shown.
+        rem = [i for i in (0, 1, 2) if i != ax]
+        sr, sc = float(spacing[rem[1]]), float(spacing[rem[0]])
+        g = _rescale(g, (sr, sc))
+        le, tg = ((_rescale((m * 255).astype(np.uint8), (sr, sc)) > 127)
+                  for m in (le, tg))
+        le, tg = (m[: g.shape[0], : g.shape[1]] for m in (le, tg))
         rgb = np.dstack([g] * 3)
-        rgb[le] = [255, 60, 60]
-        rgb[tg] = [60, 200, 255]
-        ip = [sp for i, sp in enumerate(spacing) if i != ax][0]
-        n = max(4, int(round(10.0 / float(ip))))
+        rgb[le[: g.shape[0], : g.shape[1]]] = [255, 60, 60]
+        rgb[tg[: g.shape[0], : g.shape[1]]] = [60, 200, 255]
+        n = max(4, int(round(10.0 / min(sr, sc))))
         h, w = rgb.shape[:2]
         rgb[h - 8:h - 5, 6:6 + min(n, w - 12)] = [255, 255, 255]
         return rgb
@@ -216,7 +223,7 @@ def stratified(items: list[dict], n: int, seed: int = 0) -> list[dict]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--cfqa-dirs", nargs="+", required=True)
-    ap.add_argument("--data-root", default=os.environ.get("MSD_ROOT", ""))
+    ap.add_argument("--data-root", default="/data/jianghanqi/data")
     ap.add_argument("--outdir", required=True)
     ap.add_argument("--n", type=int, default=150)
     ap.add_argument("--seed", type=int, default=0)
@@ -252,10 +259,10 @@ def main() -> None:
     form, key = [], []
     n_ok = 0
     for (organ, vid), rs in sorted(by_vol.items()):
-        segp = Path(os.environ.get("MEDVIGIL3D_ROOT", str(Path(__file__).resolve().parent.parent)) + f"/cfqa_{organ}/seg_cache/"
+        segp = Path(f"/home/hanqijiang/medai-research/cfqa_{organ}/seg_cache/"
                     f"{vid}_seg.nii.gz")
         if not segp.exists():
-            for alt in Path(os.environ.get("MEDVIGIL3D_ROOT", str(Path(__file__).resolve().parent.parent))).glob(
+            for alt in Path("/home/hanqijiang/medai-research").glob(
                     f"out_*/seg_cache/{vid}_seg.nii.gz"):
                 segp = alt
                 break
