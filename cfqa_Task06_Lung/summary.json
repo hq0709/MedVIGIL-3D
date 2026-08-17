@@ -1,0 +1,1219 @@
+{
+ "stats": [
+  {
+   "volume_id": "lung_001",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_003",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_004",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_005",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_006",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_009",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_010",
+   "n_lesions": 2,
+   "n_qa": 25,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_014",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_015",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_016",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_018",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_020",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_022",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_023",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_025",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_026",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_027",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_028",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_029",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_031",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_033",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_034",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_036",
+   "n_lesions": 2,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_037",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_038",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_041",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_042",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_043",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_044",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_045",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_046",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_047",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_048",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_049",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_051",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_053",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_054",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_055",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_057",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_058",
+   "n_lesions": 1,
+   "n_qa": 1,
+   "kinds": {
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_059",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_061",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_062",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_064",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_065",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_066",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_069",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_070",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_071",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_073",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_074",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_075",
+   "n_lesions": 2,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_078",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_079",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_080",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_081",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_083",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_084",
+   "n_lesions": 3,
+   "n_qa": 14,
+   "kinds": {
+    "nearest_on_growth": 3,
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_086",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_092",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_093",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_095",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "lung_096",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,360 @@
+{"qid": "spleen_10_02174", "prediction": "The target is identified as lung upper lobe left and its coordinates are"}
+{"qid": "spleen_10_00526_inv", "prediction": "anterior", "logprobs": {"anterior": -9.6908, "posterior": -12.6908}}
+{"qid": "spleen_10_00834", "prediction": "anterior", "logprobs": {"anterior": -3.8651, "posterior": -7.8651}}
+{"qid": "spleen_10_00164_inv", "prediction": "left", "logprobs": {"left": -2.0635, "right": -15.251}}
+{"qid": "spleen_10_01265", "prediction": "anterior", "logprobs": {"anterior": -1.7199, "posterior": -7.5324}}
+{"qid": "spleen_10_01756", "prediction": "inferior", "logprobs": {"inferior": -6.5877, "superior": -14.6502}}
+{"qid": "spleen_10_02240", "prediction": "The target is identified as rib left 5."}
+{"qid": "spleen_10_00858_inv", "prediction": "inferior", "logprobs": {"inferior": -0.0104, "superior": -11.1979}}
+{"qid": "spleen_10_00751", "prediction": "inferior", "logprobs": {"inferior": -4.2628, "superior": -14.5753}}
+{"qid": "spleen_10_01382", "prediction": "inferior", "logprobs": {"inferior": -0.2572, "superior": -11.0072}}
+{"qid": "spleen_10_02178", "prediction": "The target is identified as lung upper lobe right and its coordinates are"}
+{"qid": "spleen_10_02183", "prediction": "The target is identified as esophagus and its coordinates are ["}
+{"qid": "spleen_10_00370_inv", "prediction": "inferior", "logprobs": {"inferior": -4.1854, "superior": -12.7479}}
+{"qid": "spleen_10_00706_inv", "prediction": "inferior", "logprobs": {"inferior": -4.9999, "superior": -13.8436}}
+{"qid": "spleen_10_02268", "prediction": "The target is identified as rib right 11 and its coordinates are"}
+{"qid": "spleen_10_00329", "prediction": "anterior", "logprobs": {"anterior": -6.7676, "posterior": -10.5801}}
+{"qid": "spleen_10_02160", "prediction": "The target is identified as [0.25, 0."}
+{"qid": "spleen_10_01529_inv", "prediction": "inferior", "logprobs": {"inferior": -7.2013, "superior": -15.2638}}
+{"qid": "spleen_10_02176", "prediction": "The target is identified as lung lower lobe left and its coordinates are"}
+{"qid": "spleen_10_02039_inv", "prediction": "inferior", "logprobs": {"inferior": -1.5909, "superior": -10.9033}}
+{"qid": "spleen_10_00904", "prediction": "inferior", "logprobs": {"inferior": -3.1517, "superior": -11.4017}}
+{"qid": "spleen_10_00329_inv", "prediction": "anterior", "logprobs": {"anterior": -7.1005, "posterior": -10.288}}
+{"qid": "spleen_10_01944_inv", "prediction": "inferior", "logprobs": {"inferior": -5.9745, "superior": -14.7558}}
+{"qid": "spleen_10_00529_inv", "prediction": "anterior", "logprobs": {"anterior": -15.5142, "posterior": -16.5142}}
+{"qid": "spleen_10_01576", "prediction": "inferior", "logprobs": {"inferior": -3.0794, "superior": -12.0169}}
+{"qid": "spleen_10_01918_inv", "prediction": "left", "logprobs": {"left": -5.6619, "right": -12.2244}}
+{"qid": "spleen_10_02130", "prediction": "inferior", "logprobs": {"inferior": -6.5646, "superior": -14.2208}}
+{"qid": "spleen_10_01826", "prediction": "inferior", "logprobs": {"inferior": -3.2825, "superior": -12.7825}}
+{"qid": "spleen_10_02209", "prediction": "The target is identified as thoracic spine T8."}
+{"qid": "spleen_10_01171", "prediction": "inferior", "logprobs": {"inferior": -1.7682, "superior": -8.9557}}
+{"qid": "spleen_12_00546", "prediction": "inferior", "logprobs": {"inferior": -1.4443, "superior": -11.413}}
+{"qid": "spleen_12_02527", "prediction": "The target is identified as thoracic spine T12."}
+{"qid": "spleen_12_02548", "prediction": "The target is identified as iliac vena right."}
+{"qid": "spleen_12_02294", "prediction": "left", "logprobs": {"left": -2.4206, "right": -6.9206}}
+{"qid": "spleen_12_02557", "prediction": "The target is identified as [0.031, 0"}
+{"qid": "spleen_12_00725", "prediction": "left", "logprobs": {"left": -0.9982, "right": -7.3732}}
+{"qid": "spleen_12_00397_inv", "prediction": "inferior", "logprobs": {"inferior": -0.4358, "superior": -11.5608}}
+{"qid": "spleen_12_00260", "prediction": "anterior", "logprobs": {"anterior": -8.8383, "posterior": -13.4633}}
+{"qid": "spleen_12_01879", "prediction": "inferior", "logprobs": {"inferior": -5.5115, "superior": -12.2615}}
+{"qid": "spleen_12_00436_inv", "prediction": "anterior", "logprobs": {"anterior": -7.6594, "posterior": -12.5344}}
+{"qid": "spleen_12_02525", "prediction": "The target is identified as lumbar spine L1."}
+{"qid": "spleen_12_02069_inv", "prediction": "left", "logprobs": {"left": -3.5285, "right": -11.6535}}
+{"qid": "spleen_12_01867_inv", "prediction": "anterior", "logprobs": {"anterior": -7.1694, "posterior": -11.3569}}
+{"qid": "spleen_12_01490", "prediction": "anterior", "logprobs": {"anterior": -8.3412, "posterior": -12.2787}}
+{"qid": "spleen_12_01770", "prediction": "anterior", "logprobs": {"anterior": -8.2562, "posterior": -12.1624}}
+{"qid": "spleen_12_00007_inv", "prediction": "anterior", "logprobs": {"anterior": -5.7403, "posterior": -11.6778}}
+{"qid": "spleen_12_01387", "prediction": "inferior", "logprobs": {"inferior": -5.9117, "superior": -15.0054}}
+{"qid": "spleen_12_00626_inv", "prediction": "left", "logprobs": {"left": -1.0819, "right": -14.9569}}
+{"qid": "spleen_12_00626", "prediction": "left", "logprobs": {"left": -0.7431, "right": -9.8681}}
+{"qid": "spleen_12_01656", "prediction": "inferior", "logprobs": {"inferior": -4.2013, "superior": -13.42}}
+{"qid": "spleen_12_02496", "prediction": "The target is identified as right adrenal gland."}
+{"qid": "spleen_12_00181_inv", "prediction": "inferior", "logprobs": {"inferior": -1.5811, "superior": -13.7686}}
+{"qid": "spleen_12_01477", "prediction": "anterior", "logprobs": {"anterior": -6.2699, "posterior": -10.9574}}
+{"qid": "spleen_12_02517", "prediction": "The target is identified as lumbar spine L5."}
+{"qid": "spleen_12_02589", "prediction": "The target is identified as rib right 9."}
+{"qid": "spleen_12_00973_inv", "prediction": "inferior", "logprobs": {"inferior": -5.1468, "superior": -13.1468}}
+{"qid": "spleen_12_02494", "prediction": "The target is identified as pancreas."}
+{"qid": "spleen_12_02248", "prediction": "inferior", "logprobs": {"inferior": -3.9237, "superior": -12.4549}}
+{"qid": "spleen_12_00567_inv", "prediction": "anterior", "logprobs": {"anterior": -6.7107, "posterior": -10.8357}}
+{"qid": "spleen_12_01980", "prediction": "inferior", "logprobs": {"inferior": -4.5589, "superior": -12.4964}}
+{"qid": "spleen_13_00820_inv", "prediction": "inferior", "logprobs": {"inferior": -3.4303, "superior": -12.024}}
+{"qid": "spleen_13_01323_inv", "prediction": "left", "logprobs": {"left": -2.4484, "right": -7.1984}}
+{"qid": "spleen_13_00991_inv", "prediction": "anterior", "logprobs": {"anterior": -8.9691, "posterior": -12.6253}}
+{"qid": "spleen_13_00650_inv", "prediction": "inferior", "logprobs": {"inferior": -0.9272, "superior": -10.5522}}
+{"qid": "spleen_13_01201", "prediction": "left", "logprobs": {"left": -4.7324, "right": -11.1074}}
+{"qid": "spleen_13_01553", "prediction": "left", "logprobs": {"left": -2.3524, "right": -6.4774}}
+{"qid": "spleen_13_00936_inv", "prediction": "inferior", "logprobs": {"inferior": -3.8748, "superior": -11.656}}
+{"qid": "spleen_13_01102_inv", "prediction": "anterior", "logprobs": {"anterior": -9.2112, "posterior": -12.9299}}
+{"qid": "spleen_13_00810", "prediction": "inferior", "logprobs": {"inferior": -5.6375, "superior": -15.4813}}
+{"qid": "spleen_13_00516_inv", "prediction": "anterior", "logprobs": {"anterior": -9.5521, "posterior": -12.9896}}
+{"qid": "spleen_13_00401_inv", "prediction": "left", "logprobs": {"left": -1.846, "right": -11.221}}
+{"qid": "spleen_13_01295_inv", "prediction": "anterior", "logprobs": {"anterior": -9.1631, "posterior": -10.7256}}
+{"qid": "spleen_13_01674", "prediction": "The target is identified as stomach."}
+{"qid": "spleen_13_01546_inv", "prediction": "left", "logprobs": {"left": -4.5526, "right": -11.9277}}
+{"qid": "spleen_13_00949_inv", "prediction": "anterior", "logprobs": {"anterior": -8.2364, "posterior": -12.7051}}
+{"qid": "spleen_13_01152_inv", "prediction": "anterior", "logprobs": {"anterior": -8.3444, "posterior": -12.4069}}
+{"qid": "spleen_13_00244", "prediction": "anterior", "logprobs": {"anterior": -7.2615, "posterior": -11.699}}
+{"qid": "spleen_13_00347", "prediction": "left", "logprobs": {"left": -3.0242, "right": -13.0242}}
+{"qid": "spleen_13_01701", "prediction": "The target is identified as lumbar spine L1."}
+{"qid": "spleen_13_01764", "prediction": "The target is identified as costochondral junction."}
+{"qid": "spleen_13_01167", "prediction": "inferior", "logprobs": {"inferior": -0.8635, "superior": -10.2073}}
+{"qid": "spleen_13_00407_inv", "prediction": "anterior", "logprobs": {"anterior": -10.0784, "posterior": -13.8596}}
+{"qid": "spleen_13_00407", "prediction": "anterior", "logprobs": {"anterior": -7.1778, "posterior": -10.5528}}
+{"qid": "spleen_13_01180_inv", "prediction": "inferior", "logprobs": {"inferior": -3.773, "superior": -11.773}}
+{"qid": "spleen_13_00833", "prediction": "inferior", "logprobs": {"inferior": -5.8242, "superior": -15.5742}}
+{"qid": "spleen_13_01532", "prediction": "inferior", "logprobs": {"inferior": -4.0447, "superior": -12.076}}
+{"qid": "spleen_13_01717", "prediction": "The target is identified as portal vein and splenic vein."}
+{"qid": "spleen_13_01357_inv", "prediction": "inferior", "logprobs": {"inferior": -6.213, "superior": -13.1192}}
+{"qid": "spleen_13_01543", "prediction": "left", "logprobs": {"left": -3.0545, "right": -7.8045}}
+{"qid": "spleen_13_00056", "prediction": "inferior", "logprobs": {"inferior": -2.1634, "superior": -12.2884}}
+{"qid": "spleen_14_00584", "prediction": "inferior", "logprobs": {"inferior": -3.3898, "superior": -12.0148}}
+{"qid": "spleen_14_00079_inv", "prediction": "anterior", "logprobs": {"anterior": -11.9841, "posterior": -23.2029}}
+{"qid": "spleen_14_01760", "prediction": "anterior", "logprobs": {"anterior": -9.2345, "posterior": -12.5157}}
+{"qid": "spleen_14_02145", "prediction": "The target is identified as kidney left."}
+{"qid": "spleen_14_01012", "prediction": "inferior", "logprobs": {"inferior": -2.7295, "superior": -14.0108}}
+{"qid": "spleen_14_00688_inv", "prediction": "inferior", "logprobs": {"inferior": -3.4506, "superior": -11.4194}}
+{"qid": "spleen_14_00924", "prediction": "anterior", "logprobs": {"anterior": -5.3778, "posterior": -12.159}}
+{"qid": "spleen_14_01633_inv", "prediction": "left", "logprobs": {"left": -4.1159, "right": -6.8034}}
+{"qid": "spleen_14_01603", "prediction": "left", "logprobs": {"left": -3.2288, "right": -11.6038}}
+{"qid": "spleen_14_02095_inv", "prediction": "inferior", "logprobs": {"inferior": -6.9223, "superior": -14.7973}}
+{"qid": "spleen_14_01003_inv", "prediction": "anterior", "logprobs": {"anterior": -7.9773, "posterior": -12.3836}}
+{"qid": "spleen_14_02081", "prediction": "anterior", "logprobs": {"anterior": -13.9473, "posterior": -14.041}}
+{"qid": "spleen_14_01891", "prediction": "left", "logprobs": {"left": -4.7063, "right": -7.5188}}
+{"qid": "spleen_14_01817", "prediction": "left", "logprobs": {"left": -2.9162, "right": -12.0412}}
+{"qid": "spleen_14_02143", "prediction": "The target is identified as kidney right"}
+{"qid": "spleen_14_00947_inv", "prediction": "anterior", "logprobs": {"anterior": -6.5988, "posterior": -11.9738}}
+{"qid": "spleen_14_02198", "prediction": "The target is identified as iliac vena left."}
+{"qid": "spleen_14_01253", "prediction": "anterior", "logprobs": {"anterior": -6.9002, "posterior": -11.5877}}
+{"qid": "spleen_14_00503_inv", "prediction": "left", "logprobs": {"left": -1.0819, "right": -15.8944}}
+{"qid": "spleen_14_00272", "prediction": "anterior", "logprobs": {"anterior": -7.8185, "posterior": -12.7247}}
+{"qid": "spleen_14_01603_inv", "prediction": "left", "logprobs": {"left": -3.019, "right": -10.894}}
+{"qid": "spleen_14_02191", "prediction": "The target is identified as heart and its coordinates are [0.6"}
+{"qid": "spleen_14_01488", "prediction": "inferior", "logprobs": {"inferior": -2.9722, "superior": -13.191}}
+{"qid": "spleen_14_01679_inv", "prediction": "anterior", "logprobs": {"anterior": -9.0853, "posterior": -12.5541}}
+{"qid": "spleen_14_00763_inv", "prediction": "anterior", "logprobs": {"anterior": -8.4088, "posterior": -12.44}}
+{"qid": "spleen_14_00076_inv", "prediction": "anterior", "logprobs": {"anterior": -8.2689, "posterior": -15.3001}}
+{"qid": "spleen_14_02224", "prediction": "The target is identified as rib left 11 and its coordinates are"}
+{"qid": "spleen_14_01799", "prediction": "inferior", "logprobs": {"inferior": -3.9444, "superior": -12.1631}}
+{"qid": "spleen_14_01325_inv", "prediction": "inferior", "logprobs": {"inferior": -3.9445, "superior": -11.757}}
+{"qid": "spleen_14_02238", "prediction": "The target is identified as rib right 11 and its coordinates are"}
+{"qid": "spleen_16_02801_inv", "prediction": "inferior", "logprobs": {"inferior": -6.9917, "superior": -16.5073}}
+{"qid": "spleen_16_00146_inv", "prediction": "anterior", "logprobs": {"anterior": -4.1013, "posterior": -7.8513}}
+{"qid": "spleen_16_03383", "prediction": "The target is identified as craniocervical junction."}
+{"qid": "spleen_16_03234_inv", "prediction": "inferior", "logprobs": {"inferior": -4.2227, "superior": -13.8165}}
+{"qid": "spleen_16_02652", "prediction": "anterior", "logprobs": {"anterior": -9.188, "posterior": -11.3755}}
+{"qid": "spleen_16_02250_inv", "prediction": "inferior", "logprobs": {"inferior": -5.4581, "superior": -13.9268}}
+{"qid": "spleen_16_00544", "prediction": "anterior", "logprobs": {"anterior": -8.6922, "posterior": -12.3172}}
+{"qid": "spleen_16_00096_inv", "prediction": "anterior", "logprobs": {"anterior": -4.094, "posterior": -8.1565}}
+{"qid": "spleen_16_02528", "prediction": "anterior", "logprobs": {"anterior": -6.4401, "posterior": -8.9401}}
+{"qid": "spleen_16_00833", "prediction": "left", "logprobs": {"left": -0.386, "right": -10.3235}}
+{"qid": "spleen_16_01147_inv", "prediction": "anterior", "logprobs": {"anterior": -11.8672, "posterior": -11.961}}
+{"qid": "spleen_16_02964_inv", "prediction": "anterior", "logprobs": {"anterior": -5.2716, "posterior": -6.7716}}
+{"qid": "spleen_16_00667_inv", "prediction": "inferior", "logprobs": {"inferior": -4.3976, "superior": -13.2726}}
+{"qid": "spleen_16_01800_inv", "prediction": "posterior", "logprobs": {"anterior": -11.1439, "posterior": -11.1126}}
+{"qid": "spleen_16_02726", "prediction": "anterior", "logprobs": {"anterior": -8.9929, "posterior": -10.8054}}
+{"qid": "spleen_16_01032", "prediction": "anterior", "logprobs": {"anterior": -4.4976, "posterior": -4.4976}}
+{"qid": "spleen_16_00048_inv", "prediction": "anterior", "logprobs": {"anterior": -6.7582, "posterior": -11.0082}}
+{"qid": "spleen_16_00267_inv", "prediction": "anterior", "logprobs": {"anterior": -2.1579, "posterior": -9.7829}}
+{"qid": "spleen_16_01032_inv", "prediction": "anterior", "logprobs": {"anterior": -8.2175, "posterior": -10.5925}}
+{"qid": "spleen_16_03343", "prediction": "The target is identified as [0.562, 0"}
+{"qid": "spleen_16_02650", "prediction": "inferior", "logprobs": {"inferior": -3.6626, "superior": -12.2876}}
+{"qid": "spleen_16_03404", "prediction": "The target is identified as rib left 6."}
+{"qid": "spleen_16_03021", "prediction": "left", "logprobs": {"left": -1.9794, "right": -10.0419}}
+{"qid": "spleen_16_02218", "prediction": "inferior", "logprobs": {"inferior": -2.9364, "superior": -12.2802}}
+{"qid": "spleen_16_02713_inv", "prediction": "anterior", "logprobs": {"anterior": -8.9142, "posterior": -10.9767}}
+{"qid": "spleen_16_03314", "prediction": "The target is identified as right adrenal gland."}
+{"qid": "spleen_16_01819_inv", "prediction": "inferior", "logprobs": {"inferior": -0.5122, "superior": -12.4185}}
+{"qid": "spleen_16_03416", "prediction": "The target is identified as rib left 12."}
+{"qid": "spleen_16_00531", "prediction": "inferior", "logprobs": {"inferior": -1.046, "superior": -12.7335}}
+{"qid": "spleen_16_01630_inv", "prediction": "inferior", "logprobs": {"inferior": -4.3638, "superior": -12.5201}}
+{"qid": "spleen_17_00573_inv", "prediction": "inferior", "logprobs": {"inferior": -2.5374, "superior": -12.0687}}
+{"qid": "spleen_17_00871_inv", "prediction": "inferior", "logprobs": {"inferior": -1.5498, "superior": -12.8311}}
+{"qid": "spleen_17_01445", "prediction": "anterior", "logprobs": {"anterior": -9.4568, "posterior": -11.7693}}
+{"qid": "spleen_17_02372_inv", "prediction": "inferior", "logprobs": {"inferior": -4.7048, "superior": -11.6735}}
+{"qid": "spleen_17_02504", "prediction": "The target is identified as rib left 5."}
+{"qid": "spleen_17_01077", "prediction": "inferior", "logprobs": {"inferior": -3.7393, "superior": -15.6455}}
+{"qid": "spleen_17_02439", "prediction": "The target is identified as adrenal gland left."}
+{"qid": "spleen_17_00573", "prediction": "inferior", "logprobs": {"inferior": -5.7127, "superior": -14.0565}}
+{"qid": "spleen_17_01146_inv", "prediction": "inferior", "logprobs": {"inferior": -1.5826, "superior": -9.8326}}
+{"qid": "spleen_17_00438_inv", "prediction": "left", "logprobs": {"left": -1.551, "right": -10.801}}
+{"qid": "spleen_17_01617", "prediction": "inferior", "logprobs": {"inferior": -2.7344, "superior": -12.5157}}
+{"qid": "spleen_17_01205", "prediction": "anterior", "logprobs": {"anterior": -4.0106, "posterior": -9.4481}}
+{"qid": "spleen_17_01208", "prediction": "anterior", "logprobs": {"anterior": -4.0177, "posterior": -9.5177}}
+{"qid": "spleen_17_00532", "prediction": "left", "logprobs": {"left": -4.9504, "right": -23.6379}}
+{"qid": "spleen_17_02222_inv", "prediction": "left", "logprobs": {"left": -3.7196, "right": -19.5321}}
+{"qid": "spleen_17_01869_inv", "prediction": "inferior", "logprobs": {"inferior": -4.7434, "superior": -12.7434}}
+{"qid": "spleen_17_00418_inv", "prediction": "inferior", "logprobs": {"inferior": -3.9975, "superior": -12.2787}}
+{"qid": "spleen_17_02030_inv", "prediction": "anterior", "logprobs": {"anterior": -12.0539, "posterior": -15.0539}}
+{"qid": "spleen_17_02238_inv", "prediction": "anterior", "logprobs": {"anterior": -9.3191, "posterior": -12.5066}}
+{"qid": "spleen_17_02189", "prediction": "anterior", "logprobs": {"anterior": -7.092, "posterior": -11.5295}}
+{"qid": "spleen_17_02408", "prediction": "inferior", "logprobs": {"inferior": -7.5103, "superior": -14.8072}}
+{"qid": "spleen_17_01996_inv", "prediction": "inferior", "logprobs": {"inferior": -7.0159, "superior": -15.1565}}
+{"qid": "spleen_17_00129", "prediction": "anterior", "logprobs": {"anterior": -4.9646, "posterior": -9.4646}}
+{"qid": "spleen_17_01498", "prediction": "anterior", "logprobs": {"anterior": -3.9238, "posterior": -9.7675}}
+{"qid": "spleen_17_02222", "prediction": "left", "logprobs": {"left": -3.5348, "right": -12.5348}}
+{"qid": "spleen_17_02510", "prediction": "The target is identified as rib left 8."}
+{"qid": "spleen_17_00843", "prediction": "left", "logprobs": {"left": -5.8163, "right": -28.4413}}
+{"qid": "spleen_17_01498_inv", "prediction": "anterior", "logprobs": {"anterior": -6.4654, "posterior": -11.7154}}
+{"qid": "spleen_17_01081", "prediction": "anterior", "logprobs": {"anterior": -4.8175, "posterior": -11.005}}
+{"qid": "spleen_17_02153", "prediction": "anterior", "logprobs": {"anterior": -6.9826, "posterior": -11.3576}}
+{"qid": "spleen_18_00382", "prediction": "anterior", "logprobs": {"anterior": -5.879, "posterior": -13.7853}}
+{"qid": "spleen_18_01479_inv", "prediction": "anterior", "logprobs": {"anterior": -8.8955, "posterior": -12.208}}
+{"qid": "spleen_18_01486", "prediction": "inferior", "logprobs": {"inferior": -5.5469, "superior": -13.8594}}
+{"qid": "spleen_18_01050_inv", "prediction": "left", "logprobs": {"left": -3.2856, "right": -8.8481}}
+{"qid": "spleen_18_01245_inv", "prediction": "inferior", "logprobs": {"inferior": -6.5664, "superior": -16.4102}}
+{"qid": "spleen_18_01264", "prediction": "inferior", "logprobs": {"inferior": -4.5892, "superior": -14.8079}}
+{"qid": "spleen_18_00747", "prediction": "anterior", "logprobs": {"anterior": -3.9954, "posterior": -8.8079}}
+{"qid": "spleen_18_01881", "prediction": "The target is identified as lumbar spine L2."}
+{"qid": "spleen_18_01316_inv", "prediction": "inferior", "logprobs": {"inferior": -5.8948, "superior": -13.676}}
+{"qid": "spleen_18_00416", "prediction": "inferior", "logprobs": {"inferior": -1.3579, "superior": -12.4204}}
+{"qid": "spleen_18_01331", "prediction": "left", "logprobs": {"left": -1.6099, "right": -34.1724}}
+{"qid": "spleen_18_01553", "prediction": "left", "logprobs": {"left": -6.1435, "right": -22.0185}}
+{"qid": "spleen_18_01622_inv", "prediction": "anterior", "logprobs": {"anterior": -8.3178, "posterior": -12.4428}}
+{"qid": "spleen_18_01848", "prediction": "The target is identified as gallbladder."}
+{"qid": "spleen_18_01472", "prediction": "inferior", "logprobs": {"inferior": -4.9049, "superior": -13.3737}}
+{"qid": "spleen_18_01917", "prediction": "The target is identified as rib left 7."}
+{"qid": "spleen_18_01435_inv", "prediction": "left", "logprobs": {"left": -4.4977, "right": -10.9977}}
+{"qid": "spleen_18_01510_inv", "prediction": "inferior", "logprobs": {"inferior": -6.0481, "superior": -14.0481}}
+{"qid": "spleen_18_01016", "prediction": "inferior", "logprobs": {"inferior": -4.963, "superior": -14.3068}}
+{"qid": "spleen_18_01893", "prediction": "The target is identified as thoracic spine T8."}
+{"qid": "spleen_18_01050", "prediction": "left", "logprobs": {"left": -1.9813, "right": -13.4188}}
+{"qid": "spleen_18_00184", "prediction": "anterior", "logprobs": {"anterior": -7.9768, "posterior": -13.6955}}
+{"qid": "spleen_18_01696", "prediction": "inferior", "logprobs": {"inferior": -4.574, "superior": -13.574}}
+{"qid": "spleen_18_01709_inv", "prediction": "left", "logprobs": {"left": -8.146, "right": -16.271}}
+{"qid": "spleen_18_01896", "prediction": "The target is identified as aorta."}
+{"qid": "spleen_18_01103", "prediction": "inferior", "logprobs": {"inferior": -4.2306, "superior": -13.8868}}
+{"qid": "spleen_18_00230", "prediction": "anterior", "logprobs": {"anterior": -10.3899, "posterior": -13.8899}}
+{"qid": "spleen_18_01084_inv", "prediction": "inferior", "logprobs": {"inferior": -5.9104, "superior": -13.7229}}
+{"qid": "spleen_18_01479", "prediction": "anterior", "logprobs": {"anterior": -9.7479, "posterior": -13.0291}}
+{"qid": "spleen_18_01331_inv", "prediction": "left", "logprobs": {"left": -3.2603, "right": -12.0103}}
+{"qid": "spleen_19_00178", "prediction": "anterior", "logprobs": {"anterior": -12.407, "posterior": -17.7038}}
+{"qid": "spleen_19_01295", "prediction": "anterior", "logprobs": {"anterior": -7.1674, "posterior": -11.6674}}
+{"qid": "spleen_19_01816", "prediction": "The target is identified as autochthon left."}
+{"qid": "spleen_19_01833", "prediction": "The target is identified as rib left 11."}
+{"qid": "spleen_19_01713_inv", "prediction": "anterior", "logprobs": {"anterior": -7.6284, "posterior": -12.1284}}
+{"qid": "spleen_19_00293", "prediction": "anterior", "logprobs": {"anterior": -11.5923, "posterior": -14.3736}}
+{"qid": "spleen_19_01755", "prediction": "The target is identified as right kidney."}
+{"qid": "spleen_19_00690", "prediction": "inferior", "logprobs": {"inferior": -4.5516, "superior": -15.8016}}
+{"qid": "spleen_19_00551_inv", "prediction": "inferior", "logprobs": {"inferior": -5.126, "superior": -13.9385}}
+{"qid": "spleen_19_01718", "prediction": "inferior", "logprobs": {"inferior": -5.8496, "superior": -14.0371}}
+{"qid": "spleen_19_01731_inv", "prediction": "inferior", "logprobs": {"inferior": -4.8863, "superior": -12.6988}}
+{"qid": "spleen_19_00389_inv", "prediction": "anterior", "logprobs": {"anterior": -10.4957, "posterior": -13.9019}}
+{"qid": "spleen_19_00743_inv", "prediction": "inferior", "logprobs": {"inferior": -3.8671, "superior": -14.039}}
+{"qid": "spleen_19_01134", "prediction": "inferior", "logprobs": {"inferior": -3.9469, "superior": -14.6969}}
+{"qid": "spleen_19_01839", "prediction": "The target is identified as rib right 7."}
+{"qid": "spleen_19_00778", "prediction": "anterior", "logprobs": {"anterior": -9.9744, "posterior": -14.2869}}
+{"qid": "spleen_19_01675_inv", "prediction": "inferior", "logprobs": {"inferior": -6.0853, "superior": -12.6478}}
+{"qid": "spleen_19_00421", "prediction": "anterior", "logprobs": {"anterior": -9.5714, "posterior": -13.9464}}
+{"qid": "spleen_19_01821", "prediction": "The target is identified as iliopsoas right."}
+{"qid": "spleen_19_00872_inv", "prediction": "anterior", "logprobs": {"anterior": -8.28, "posterior": -11.03}}
+{"qid": "spleen_19_00514", "prediction": "anterior", "logprobs": {"anterior": -7.3973, "posterior": -12.6161}}
+{"qid": "spleen_19_01479_inv", "prediction": "inferior", "logprobs": {"inferior": -4.7766, "superior": -13.9641}}
+{"qid": "spleen_19_00707_inv", "prediction": "inferior", "logprobs": {"inferior": -4.0835, "superior": -13.4898}}
+{"qid": "spleen_19_01243", "prediction": "inferior", "logprobs": {"inferior": -6.6163, "superior": -13.4288}}
+{"qid": "spleen_19_00800", "prediction": "anterior", "logprobs": {"anterior": -7.494, "posterior": -12.3065}}
+{"qid": "spleen_19_00707", "prediction": "inferior", "logprobs": {"inferior": -4.7302, "superior": -16.2771}}
+{"qid": "spleen_19_00133", "prediction": "anterior", "logprobs": {"anterior": -12.0906, "posterior": -16.2468}}
+{"qid": "spleen_19_01327", "prediction": "left", "logprobs": {"left": -3.4176, "right": -12.6051}}
+{"qid": "spleen_19_00968", "prediction": "anterior", "logprobs": {"anterior": -7.8996, "posterior": -13.2746}}
+{"qid": "spleen_19_00801_inv", "prediction": "inferior", "logprobs": {"inferior": -2.3467, "superior": -13.6904}}
+{"qid": "spleen_2_03047", "prediction": "The target is identified as thoracic spine T9."}
+{"qid": "spleen_2_02444_inv", "prediction": "inferior", "logprobs": {"inferior": -7.0631, "superior": -15.6569}}
+{"qid": "spleen_2_02444", "prediction": "inferior", "logprobs": {"inferior": -3.9385, "superior": -13.001}}
+{"qid": "spleen_2_03099", "prediction": "The target is identified as rib left 10."}
+{"qid": "spleen_2_00834_inv", "prediction": "left", "logprobs": {"left": -0.5831, "right": -16.1456}}
+{"qid": "spleen_2_02485_inv", "prediction": "left", "logprobs": {"left": -1.9733, "right": -8.9108}}
+{"qid": "spleen_2_01458", "prediction": "inferior", "logprobs": {"inferior": -7.2108, "superior": -17.1795}}
+{"qid": "spleen_2_02809_inv", "prediction": "left", "logprobs": {"left": -4.165, "right": -13.9775}}
+{"qid": "spleen_2_01093", "prediction": "inferior", "logprobs": {"inferior": -6.7186, "superior": -15.1561}}
+{"qid": "spleen_2_03027", "prediction": "The target is identified as sacrum."}
+{"qid": "spleen_2_02153", "prediction": "anterior", "logprobs": {"anterior": -9.8919, "posterior": -13.4544}}
+{"qid": "spleen_2_01458_inv", "prediction": "inferior", "logprobs": {"inferior": -6.5655, "superior": -12.378}}
+{"qid": "spleen_2_02049", "prediction": "anterior", "logprobs": {"anterior": -9.5164, "posterior": -11.5164}}
+{"qid": "spleen_2_02701_inv", "prediction": "anterior", "logprobs": {"anterior": -8.1041, "posterior": -12.1041}}
+{"qid": "spleen_2_02727_inv", "prediction": "anterior", "logprobs": {"anterior": -7.5579, "posterior": -10.3704}}
+{"qid": "spleen_2_02519", "prediction": "left", "logprobs": {"left": -1.4066, "right": -10.5941}}
+{"qid": "spleen_2_03053", "prediction": "The target is identified as inferior vena cava."}
+{"qid": "spleen_2_01959_inv", "prediction": "inferior", "logprobs": {"inferior": -4.3941, "superior": -13.9566}}
+{"qid": "spleen_2_00874", "prediction": "inferior", "logprobs": {"inferior": -3.1318, "superior": -14.3506}}
+{"qid": "spleen_2_02450_inv", "prediction": "inferior", "logprobs": {"inferior": -7.9888, "superior": -16.8326}}
+{"qid": "spleen_2_00257_inv", "prediction": "anterior", "logprobs": {"anterior": -2.8502, "posterior": -9.1002}}
+{"qid": "spleen_2_02396", "prediction": "anterior", "logprobs": {"anterior": -6.3533, "posterior": -9.6658}}
+{"qid": "spleen_2_01054", "prediction": "anterior", "logprobs": {"anterior": -3.1749, "posterior": -7.7374}}
+{"qid": "spleen_2_03119", "prediction": "The target is identified as rib right 12."}
+{"qid": "spleen_2_02521_inv", "prediction": "inferior", "logprobs": {"inferior": -6.9974, "superior": -14.1849}}
+{"qid": "spleen_2_02653_inv", "prediction": "inferior", "logprobs": {"inferior": -9.0381, "superior": -17.7568}}
+{"qid": "spleen_2_00540_inv", "prediction": "left", "logprobs": {"left": -0.1756, "right": -17.8006}}
+{"qid": "spleen_2_02902", "prediction": "inferior", "logprobs": {"inferior": -4.0037, "superior": -11.1912}}
+{"qid": "spleen_2_01253", "prediction": "inferior", "logprobs": {"inferior": -6.5024, "superior": -16.5962}}
+{"qid": "spleen_2_00540", "prediction": "left", "logprobs": {"left": -1.1904, "right": -17.6904}}
+{"qid": "spleen_20_02576", "prediction": "left", "logprobs": {"left": -2.5497, "right": -10.6122}}
+{"qid": "spleen_20_00185_inv", "prediction": "anterior", "logprobs": {"anterior": -4.1036, "posterior": -10.1661}}
+{"qid": "spleen_20_01403", "prediction": "anterior", "logprobs": {"anterior": -4.0241, "posterior": -11.4616}}
+{"qid": "spleen_20_01524_inv", "prediction": "anterior", "logprobs": {"anterior": -5.5592, "posterior": -10.7467}}
+{"qid": "spleen_20_01360_inv", "prediction": "inferior", "logprobs": {"inferior": -3.097, "superior": -11.1907}}
+{"qid": "spleen_20_02788", "prediction": "The target is identified as iliac artery left."}
+{"qid": "spleen_20_01190", "prediction": "anterior", "logprobs": {"anterior": -1.7416, "posterior": -10.8666}}
+{"qid": "spleen_20_01438_inv", "prediction": "inferior", "logprobs": {"inferior": -2.1359, "superior": -11.4484}}
+{"qid": "spleen_20_02245", "prediction": "anterior", "logprobs": {"anterior": -6.8906, "posterior": -12.0781}}
+{"qid": "spleen_20_02772", "prediction": "The target is identified as thoracic spine T11."}
+{"qid": "spleen_20_02580_inv", "prediction": "inferior", "logprobs": {"inferior": -6.4607, "superior": -14.8982}}
+{"qid": "spleen_20_00101", "prediction": "inferior", "logprobs": {"inferior": -0.1942, "superior": -12.3817}}
+{"qid": "spleen_20_02081_inv", "prediction": "left", "logprobs": {"left": -2.5532, "right": -8.9282}}
+{"qid": "spleen_20_00071", "prediction": "anterior", "logprobs": {"anterior": -5.2265, "posterior": -13.3515}}
+{"qid": "spleen_20_01071_inv", "prediction": "inferior", "logprobs": {"inferior": -3.3376, "superior": -12.6189}}
+{"qid": "spleen_20_02453_inv", "prediction": "inferior", "logprobs": {"inferior": -6.1383, "superior": -14.1383}}
+{"qid": "spleen_20_02835", "prediction": "The target is identified as rib right 7."}
+{"qid": "spleen_20_01316_inv", "prediction": "inferior", "logprobs": {"inferior": -2.8111, "superior": -11.5611}}
+{"qid": "spleen_20_02657_inv", "prediction": "anterior", "logprobs": {"anterior": -14.1405, "posterior": -17.5155}}
+{"qid": "spleen_20_02586", "prediction": "inferior", "logprobs": {"inferior": -4.8276, "superior": -12.0776}}
+{"qid": "spleen_20_00489_inv", "prediction": "anterior", "logprobs": {"anterior": -2.3757, "posterior": -9.5632}}
+{"qid": "spleen_20_02702", "prediction": "inferior", "logprobs": {"inferior": -4.2499, "superior": -12.1561}}
+{"qid": "spleen_20_02468", "prediction": "anterior", "logprobs": {"anterior": -7.4271, "posterior": -10.9896}}
+{"qid": "spleen_20_01214_inv", "prediction": "left", "logprobs": {"left": -0.242, "right": -12.6795}}
+{"qid": "spleen_20_02843", "prediction": "The target is identified as rib right 11."}
+{"qid": "spleen_20_00240_inv", "prediction": "anterior", "logprobs": {"anterior": -5.7708, "posterior": -11.9583}}
+{"qid": "spleen_20_00194", "prediction": "left", "logprobs": {"left": -3.3794, "right": -11.9419}}
+{"qid": "spleen_20_01978", "prediction": "left", "logprobs": {"left": -1.2315, "right": -9.2315}}
+{"qid": "spleen_20_01266_inv", "prediction": "inferior", "logprobs": {"inferior": -2.7337, "superior": -12.265}}
+{"qid": "spleen_20_00669_inv", "prediction": "anterior", "logprobs": {"anterior": -2.0202, "posterior": -10.8327}}
+{"qid": "spleen_21_01799_inv", "prediction": "anterior", "logprobs": {"anterior": -6.1394, "posterior": -9.4207}}
+{"qid": "spleen_21_01547_inv", "prediction": "left", "logprobs": {"left": -2.1802, "right": -6.6802}}
+{"qid": "spleen_21_00648", "prediction": "inferior", "logprobs": {"inferior": -5.9215, "superior": -14.6402}}
+{"qid": "spleen_21_01799", "prediction": "anterior", "logprobs": {"anterior": -8.4321, "posterior": -11.3696}}
+{"qid": "spleen_21_02009", "prediction": "left", "logprobs": {"bilateral": -2.1273, "left": -1.5068, "right": -8.8193}}
+{"qid": "spleen_21_01185", "prediction": "inferior", "logprobs": {"inferior": -5.0761, "superior": -13.3573}}
+{"qid": "spleen_21_00430_inv", "prediction": "inferior", "logprobs": {"inferior": -5.9203, "superior": -14.6703}}
+{"qid": "spleen_21_00168", "prediction": "anterior", "logprobs": {"anterior": -6.383, "posterior": -10.9455}}
+{"qid": "spleen_21_01959", "prediction": "inferior", "logprobs": {"inferior": -8.4813, "superior": -15.9813}}
+{"qid": "spleen_21_02102", "prediction": "The target is identified as sternum."}
+{"qid": "spleen_21_00584", "prediction": "inferior", "logprobs": {"inferior": -2.4093, "superior": -11.9718}}
+{"qid": "spleen_21_00110_inv", "prediction": "anterior", "logprobs": {"anterior": -6.7683, "posterior": -11.2683}}
+{"qid": "spleen_21_02098", "prediction": "The target is identified as rib right 11."}
+{"qid": "spleen_21_01696_inv", "prediction": "left", "logprobs": {"left": -4.8267, "right": -9.9517}}
+{"qid": "spleen_21_02059", "prediction": "The target is identified as autochthon left."}
+{"qid": "spleen_21_02004", "prediction": "The target is identified as stomach."}
+{"qid": "spleen_21_01589_inv", "prediction": "anterior", "logprobs": {"anterior": -11.5594, "posterior": -14.5907}}
+{"qid": "spleen_21_00556_inv", "prediction": "inferior", "logprobs": {"inferior": -5.6335, "superior": -13.8522}}
+{"qid": "spleen_21_01490_inv", "prediction": "left", "logprobs": {"left": -2.5369, "right": -7.7869}}
+{"qid": "spleen_21_02048", "prediction": "The target is identified as portal vein and splenic vein."}
+{"qid": "spleen_21_02076", "prediction": "The target is identified as rib left 9."}
+{"qid": "spleen_21_01290", "prediction": "anterior", "logprobs": {"anterior": -6.1824, "posterior": -10.2449}}
+{"qid": "spleen_21_01787_inv", "prediction": "left", "logprobs": {"left": -3.838, "right": -12.088}}
+{"qid": "spleen_21_01682_inv", "prediction": "left", "logprobs": {"left": -4.0754, "right": -10.3254}}
+{"qid": "spleen_21_00822_inv", "prediction": "inferior", "logprobs": {"inferior": -3.5973, "superior": -12.0348}}
+{"qid": "spleen_21_01954", "prediction": "inferior", "logprobs": {"inferior": -6.9877, "superior": -14.3002}}
+{"qid": "spleen_21_00058", "prediction": "inferior", "logprobs": {"inferior": -1.4352, "superior": -11.0602}}
+{"qid": "spleen_21_01628_inv", "prediction": "left", "logprobs": {"left": -3.2485, "right": -9.436}}
+{"qid": "spleen_21_00778", "prediction": "anterior", "logprobs": {"anterior": -3.7219, "posterior": -8.8469}}
+{"qid": "spleen_21_01531_inv", "prediction": "inferior", "logprobs": {"inferior": -7.3072, "superior": -13.5572}}
+{"qid": "spleen_22_01253_inv", "prediction": "inferior", "logprobs": {"inferior": -6.5167, "superior": -14.7355}}
+{"qid": "spleen_22_01242_inv", "prediction": "left", "logprobs": {"left": -3.5728, "right": -11.4478}}
+{"qid": "spleen_22_01153", "prediction": "left", "logprobs": {"left": -2.8119, "right": -9.9994}}
+{"qid": "spleen_22_00486", "prediction": "inferior", "logprobs": {"inferior": -5.9179, "superior": -15.8242}}
+{"qid": "spleen_22_00607_inv", "prediction": "inferior", "logprobs": {"inferior": -2.7234, "superior": -11.9109}}
+{"qid": "spleen_22_01680", "prediction": "The target is identified as craniocolon."}
+{"qid": "spleen_22_00242_inv", "prediction": "anterior", "logprobs": {"anterior": -5.7727, "posterior": -12.3039}}
+{"qid": "spleen_22_01288_inv", "prediction": "left", "logprobs": {"left": -2.9804, "right": -12.1054}}
+{"qid": "spleen_22_00311_inv", "prediction": "inferior", "logprobs": {"inferior": -2.9333, "superior": -14.902}}
+{"qid": "spleen_22_00539", "prediction": "inferior", "logprobs": {"inferior": -2.767, "superior": -12.2983}}
+{"qid": "spleen_22_00741_inv", "prediction": "anterior", "logprobs": {"anterior": -5.4543, "posterior": -11.5168}}
+{"qid": "spleen_22_01106", "prediction": "inferior", "logprobs": {"inferior": -1.3907, "superior": -12.3282}}
+{"qid": "spleen_22_01685", "prediction": "The target is identified as [0.0, 0.5"}
+{"qid": "spleen_22_01329_inv", "prediction": "inferior", "logprobs": {"inferior": -6.8711, "superior": -15.1836}}
+{"qid": "spleen_22_00701_inv", "prediction": "anterior", "logprobs": {"anterior": -6.1217, "posterior": -10.6217}}
+{"qid": "spleen_22_00824", "prediction": "anterior", "logprobs": {"anterior": -4.154, "posterior": -8.4665}}
+{"qid": "spleen_22_01664", "prediction": "The target is identified as lumbar spine L3."}
+{"qid": "spleen_22_01630", "prediction": "The target is identified as kidney right."}
+{"qid": "spleen_22_01153_inv", "prediction": "left", "logprobs": {"left": -3.0368, "right": -12.6618}}
+{"qid": "spleen_22_01524_inv", "prediction": "inferior", "logprobs": {"inferior": -3.9778, "superior": -9.1653}}
+{"qid": "spleen_22_00242", "prediction": "anterior", "logprobs": {"anterior": -5.7013, "posterior": -11.3263}}
+{"qid": "spleen_22_01112", "prediction": "inferior", "logprobs": {"inferior": -5.2671, "superior": -13.6734}}
+{"qid": "spleen_22_01509_inv", "prediction": "left", "logprobs": {"left": -5.9046, "right": -11.2796}}
+{"qid": "spleen_22_00375_inv", "prediction": "anterior", "logprobs": {"anterior": -13.7091, "posterior": -17.0841}}
+{"qid": "spleen_22_01004", "prediction": "anterior", "logprobs": {"anterior": -5.2026, "posterior": -10.7651}}
+{"qid": "spleen_22_01078", "prediction": "left", "logprobs": {"left": -1.0556, "right": -16.1181}}
+{"qid": "spleen_22_01514_inv", "prediction": "left", "logprobs": {"left": -4.5512, "right": -12.7387}}
+{"qid": "spleen_22_01431_inv", "prediction": "inferior", "logprobs": {"inferior": -6.879, "superior": -15.5196}}
+{"qid": "spleen_22_01374_inv", "prediction": "anterior", "logprobs": {"anterior": -10.0945, "posterior": -19.6882}}
+{"qid": "spleen_22_01694", "prediction": "The target is identified as rib left 6."}

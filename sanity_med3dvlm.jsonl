@@ -1,0 +1,140 @@
+{"volume": "liver_0.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.6567, "no": -0.0005}}
+{"volume": "liver_0.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.2511, "no": -0.0011}}
+{"volume": "liver_0.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -22.5626, "no": -0.0001}}
+{"volume": "liver_0.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.1707, "no": -0.0145}}
+{"volume": "liver_0.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.7356, "no": -0.0168}}
+{"volume": "liver_0.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -20.1943, "no": -0.0068}}
+{"volume": "liver_0.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -15.6255, "no": -0.0005}}
+{"volume": "liver_1.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.2324, "no": -0.0137}}
+{"volume": "liver_1.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -14.5642, "no": -0.0017}}
+{"volume": "liver_1.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.814, "no": -0.0015}}
+{"volume": "liver_1.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.0707, "no": -0.0394}}
+{"volume": "liver_1.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.2701, "no": -0.0826}}
+{"volume": "liver_1.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.7215, "no": -0.0027}}
+{"volume": "liver_1.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.5628, "no": -0.0003}}
+{"volume": "liver_10.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -19.7815, "no": -0.0002}}
+{"volume": "liver_10.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.6257, "no": -0.0007}}
+{"volume": "liver_10.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -25.3125, "no": -0.0}}
+{"volume": "liver_10.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -21.1884, "no": -0.0009}}
+{"volume": "liver_10.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.1946, "no": -0.0071}}
+{"volume": "liver_10.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -23.2506, "no": -0.0006}}
+{"volume": "liver_10.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.5626, "no": -0.0001}}
+{"volume": "liver_100.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -13.7546, "no": -0.0046}}
+{"volume": "liver_100.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.2513, "no": -0.0013}}
+{"volume": "liver_100.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.3783, "no": -0.0033}}
+{"volume": "liver_100.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.3743, "no": -0.0618}}
+{"volume": "liver_100.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.779, "no": -0.029}}
+{"volume": "liver_100.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -18.9099, "no": -0.0036}}
+{"volume": "liver_100.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.2504, "no": -0.0004}}
+{"volume": "liver_101.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.8223, "no": -0.0098}}
+{"volume": "liver_101.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.876, "no": -0.001}}
+{"volume": "liver_101.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.8758, "no": -0.0008}}
+{"volume": "liver_101.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.823, "no": -0.0418}}
+{"volume": "liver_101.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.3941, "no": -0.0504}}
+{"volume": "liver_101.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.1974, "no": -0.0099}}
+{"volume": "liver_101.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.3754, "no": -0.0004}}
+{"volume": "liver_102.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -19.0003, "no": -0.0003}}
+{"volume": "liver_102.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.3135, "no": -0.001}}
+{"volume": "liver_102.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -24.0625, "no": -0.0}}
+{"volume": "liver_102.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.9749, "no": -0.0061}}
+{"volume": "liver_102.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.695, "no": -0.0075}}
+{"volume": "liver_102.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -21.7205, "no": -0.0017}}
+{"volume": "liver_102.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.9377, "no": -0.0002}}
+{"volume": "liver_103.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.5704, "no": -0.0079}}
+{"volume": "liver_103.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.1261, "no": -0.0011}}
+{"volume": "liver_103.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.3132, "no": -0.0007}}
+{"volume": "liver_103.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.3952, "no": -0.0515}}
+{"volume": "liver_103.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.648, "no": -0.0543}}
+{"volume": "liver_103.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.2572, "no": -0.0072}}
+{"volume": "liver_103.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.1876, "no": -0.0001}}
+{"volume": "liver_104.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.7867, "no": -0.0054}}
+{"volume": "liver_104.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.7514, "no": -0.0013}}
+{"volume": "liver_104.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.8753, "no": -0.0003}}
+{"volume": "liver_104.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.8009, "no": -0.0197}}
+{"volume": "liver_104.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.2918, "no": -0.0418}}
+{"volume": "liver_104.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.7226, "no": -0.0039}}
+{"volume": "liver_104.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.5001, "no": -0.0001}}
+{"volume": "liver_105.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.8757, "no": -0.0007}}
+{"volume": "liver_105.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.0629, "no": -0.0004}}
+{"volume": "liver_105.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -23.125, "no": -0.0}}
+{"volume": "liver_105.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.8228, "no": -0.0103}}
+{"volume": "liver_105.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.6984, "no": -0.0109}}
+{"volume": "liver_105.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -23.0642, "no": -0.0017}}
+{"volume": "liver_105.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.7503, "no": -0.0003}}
+{"volume": "liver_106.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.3504, "no": -0.0067}}
+{"volume": "liver_106.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.3765, "no": -0.0015}}
+{"volume": "liver_106.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -19.2504, "no": -0.0004}}
+{"volume": "liver_106.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.158, "no": -0.033}}
+{"volume": "liver_106.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.2277, "no": -0.0402}}
+{"volume": "liver_106.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.1938, "no": -0.0063}}
+{"volume": "liver_106.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -18.1876, "no": -0.0001}}
+{"volume": "liver_107.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -13.9082, "no": -0.0019}}
+{"volume": "liver_107.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -14.9395, "no": -0.002}}
+{"volume": "liver_107.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -19.6267, "no": -0.0017}}
+{"volume": "liver_107.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.6025, "no": -0.04}}
+{"volume": "liver_107.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.2012, "no": -0.0137}}
+{"volume": "liver_107.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -20.3468, "no": -0.0031}}
+{"volume": "liver_107.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.063, "no": -0.0005}}
+{"volume": "liver_108.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.6626, "no": -0.0063}}
+{"volume": "liver_108.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.6262, "no": -0.0012}}
+{"volume": "liver_108.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.438, "no": -0.0005}}
+{"volume": "liver_108.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.4465, "no": -0.0403}}
+{"volume": "liver_108.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.611, "no": -0.0485}}
+{"volume": "liver_108.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.8476, "no": -0.0039}}
+{"volume": "liver_108.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.5626, "no": -0.0001}}
+{"volume": "liver_109.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.9446, "no": -0.0071}}
+{"volume": "liver_109.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.2518, "no": -0.0018}}
+{"volume": "liver_109.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.3757, "no": -0.0007}}
+{"volume": "liver_109.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.8132, "no": -0.032}}
+{"volume": "liver_109.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.8697, "no": -0.0572}}
+{"volume": "liver_109.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.5997, "no": -0.0059}}
+{"volume": "liver_109.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -15.5627, "no": -0.0002}}
+{"volume": "liver_11.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.8833, "no": -0.0083}}
+{"volume": "liver_11.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.5636, "no": -0.0011}}
+{"volume": "liver_11.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.6259, "no": -0.0009}}
+{"volume": "liver_11.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.1388, "no": -0.045}}
+{"volume": "liver_11.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.0992, "no": -0.0367}}
+{"volume": "liver_11.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.7857, "no": -0.0044}}
+{"volume": "liver_11.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.8127, "no": -0.0002}}
+{"volume": "liver_110.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.6321, "no": -0.0071}}
+{"volume": "liver_110.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.314, "no": -0.0015}}
+{"volume": "liver_110.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -17.1882, "no": -0.0007}}
+{"volume": "liver_110.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.6373, "no": -0.0436}}
+{"volume": "liver_110.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.8604, "no": -0.0479}}
+{"volume": "liver_110.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.0689, "no": -0.0064}}
+{"volume": "liver_110.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -15.9377, "no": -0.0002}}
+{"volume": "liver_111.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -13.2569, "no": -0.0069}}
+{"volume": "liver_111.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.7504, "no": -0.0004}}
+{"volume": "liver_111.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.0629, "no": -0.0004}}
+{"volume": "liver_111.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.2326, "no": -0.0451}}
+{"volume": "liver_111.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.5256, "no": -0.0569}}
+{"volume": "liver_111.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.971, "no": -0.0022}}
+{"volume": "liver_111.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -15.0627, "no": -0.0002}}
+{"volume": "liver_112.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.35, "no": -0.0063}}
+{"volume": "liver_112.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -18.9384, "no": -0.0009}}
+{"volume": "liver_112.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -19.2504, "no": -0.0004}}
+{"volume": "liver_112.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -13.9925, "no": -0.0238}}
+{"volume": "liver_112.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.724, "no": -0.0365}}
+{"volume": "liver_112.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.6923, "no": -0.0048}}
+{"volume": "liver_112.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.9376, "no": -0.0001}}
+{"volume": "liver_113.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -13.0065, "no": -0.0065}}
+{"volume": "liver_113.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -14.6889, "no": -0.0014}}
+{"volume": "liver_113.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.1256, "no": -0.0006}}
+{"volume": "liver_113.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -12.2889, "no": -0.0389}}
+{"volume": "liver_113.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.062, "no": -0.062}}
+{"volume": "liver_113.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -16.8782, "no": -0.0032}}
+{"volume": "liver_113.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.6878, "no": -0.0003}}
+{"volume": "liver_114.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -12.5076, "no": -0.0076}}
+{"volume": "liver_114.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.4385, "no": -0.001}}
+{"volume": "liver_114.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.8131, "no": -0.0006}}
+{"volume": "liver_114.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -12.8341, "no": -0.0529}}
+{"volume": "liver_114.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -10.0969, "no": -0.0657}}
+{"volume": "liver_114.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -17.0041, "no": -0.0041}}
+{"volume": "liver_114.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -15.0002, "no": -0.0002}}
+{"volume": "liver_115.nii", "question": "Is this a CT scan?", "gold": "yes", "prediction": "no", "kind": "modality", "logprobs": {"yes": -15.7508, "no": -0.0008}}
+{"volume": "liver_115.nii", "question": "Is this a photograph of a cat?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -16.313, "no": -0.0005}}
+{"volume": "liver_115.nii", "question": "Does this image show a brain MRI?", "gold": "no", "prediction": "no", "kind": "modality", "logprobs": {"yes": -21.1876, "no": -0.0001}}
+{"volume": "liver_115.nii", "question": "Are there any bones in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -14.9973, "no": -0.0285}}
+{"volume": "liver_115.nii", "question": "Is the spine visible in this image?", "gold": "yes", "prediction": "no", "kind": "content", "logprobs": {"yes": -12.2948, "no": -0.0135}}
+{"volume": "liver_115.nii", "question": "Is the patient's head visible in this image?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -19.661, "no": -0.0047}}
+{"volume": "liver_115.nii", "question": "Is this image completely blank?", "gold": "no", "prediction": "no", "kind": "content", "logprobs": {"yes": -11.814, "no": -0.0015}}

@@ -1,0 +1,5492 @@
+{
+ "stats": [
+  {
+   "volume_id": "pancreas_001",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_004",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_005",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_006",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_010",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_012",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_015",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_016",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_018",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_019",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_021",
+   "n_lesions": 2,
+   "n_qa": 41,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_024",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_025",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_028",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_029",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_032",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_035",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 20
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_037",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_040",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_041",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_042",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_043",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_045",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_046",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_048",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_049",
+   "n_lesions": 1,
+   "n_qa": 23,
+   "kinds": {
+    "growth_contact": 22,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_050",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_051",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_052",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_055",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_056",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_058",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_061",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_064",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_066",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_067",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_069",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_070",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_071",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_074",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_075",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 12
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_077",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_078",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_080",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_081",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_083",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_084",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_086",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_087",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_088",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_089",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_091",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_092",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_093",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_094",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_095",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_096",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_098",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_099",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_100",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_101",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_102",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_103",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_104",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_105",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_106",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_107",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_109",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_110",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_111",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_113",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_114",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_117",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_119",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_120",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_122",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_124",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_125",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_126",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_127",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_129",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_130",
+   "n_lesions": 1,
+   "n_qa": 23,
+   "kinds": {
+    "growth_contact": 22,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_131",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_135",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_137",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_138",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_140",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_145",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_147",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_148",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_149",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_155",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_157",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_158",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_159",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_160",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_165",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_166",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_167",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_169",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_170",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_172",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_173",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_175",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_178",
+   "n_lesions": 1,
+   "n_qa": 26,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_179",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_180",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_181",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_182",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_183",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_186",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_187",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_191",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_193",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_194",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_196",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_197",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_198",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_199",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_200",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_201",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_203",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_204",
+   "n_lesions": 1,
+   "n_qa": 23,
+   "kinds": {
+    "growth_contact": 22,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_207",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_209",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_210",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_211",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_212",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_213",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_214",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_215",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_217",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_218",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_219",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_222",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_224",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_225",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_226",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_227",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_228",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_229",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_230",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_231",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_234",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_235",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_236",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_239",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_241",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_242",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_243",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_244",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_246",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_247",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_249",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_253",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_254",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_255",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_256",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_258",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_259",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_261",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_262",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_264",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_265",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_266",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_267",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_268",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_269",
+   "n_lesions": 1,
+   "n_qa": 26,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_270",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_274",
+   "n_lesions": 2,
+   "n_qa": 43,
+   "kinds": {
+    "growth_contact": 40,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 40,
+    "label_counts": {
+     "no": 20,
+     "yes": 20
+    },
+    "balanced": true,
+    "complete_pairs": 20,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_275",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_276",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_277",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_278",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_279",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_280",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_283",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_284",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_285",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_286",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_287",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_289",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_290",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_291",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_292",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_293",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_294",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_295",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_296",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_297",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_298",
+   "n_lesions": 1,
+   "n_qa": 25,
+   "kinds": {
+    "growth_contact": 24,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_299",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_300",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_301",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_302",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_303",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_304",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_305",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_308",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_309",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_310",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_311",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_312",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_313",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_315",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_316",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_318",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_320",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_321",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_323",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_325",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_326",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_327",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_328",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_329",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_330",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_331",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_333",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_334",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_336",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_339",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_342",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_343",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_344",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_345",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_346",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_347",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_348",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_350",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_351",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_354",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_355",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_356",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_357",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_358",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_360",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_361",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_362",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_364",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_365",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_366",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_367",
+   "n_lesions": 1,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 18,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_369",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_370",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_372",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_374",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_375",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_376",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_377",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_378",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_379",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_380",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_382",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_385",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_386",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_387",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_388",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_389",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_391",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_392",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_393",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_395",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_398",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_399",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_400",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_401",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_402",
+   "n_lesions": 1,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_404",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_405",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_406",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 12
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_409",
+   "n_lesions": 1,
+   "n_qa": 23,
+   "kinds": {
+    "growth_contact": 22,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_410",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_411",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_412",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_413",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_414",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_415",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_416",
+   "n_lesions": 1,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_418",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_419",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "pancreas_421",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  }
+ ],
+ "failures": []
+}

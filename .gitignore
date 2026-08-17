@@ -1,0 +1,10 @@
+# secrets -- never commit
+.env
+*.key
+
+# regenerable bulk (see README: Data you must supply)
+cfqa_*/seg_cache/
+cfqa_*/vol_cache/
+reader_study/images/
+__pycache__/
+*.pyc

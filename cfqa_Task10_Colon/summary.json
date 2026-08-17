@@ -1,0 +1,2417 @@
+{
+ "stats": [
+  {
+   "volume_id": "colon_001",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_005",
+   "n_lesions": 2,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_006",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_007",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_008",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_009",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_011",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_012",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_015",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_022",
+   "n_lesions": 2,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_024",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_025",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_026",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_027",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "growth_contact": 2
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_028",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_029",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_030",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_031",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_032",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_033",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_036",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_038",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 6
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_039",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_040",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_041",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_042",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_045",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_046",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_050",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_051",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_053",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_054",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_059",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "growth_contact": 2
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_061",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_064",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 6
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_065",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_066",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_069",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_072",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_074",
+   "n_lesions": 4,
+   "n_qa": 51,
+   "kinds": {
+    "growth_contact": 46,
+    "nearest_on_growth": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 46,
+    "label_counts": {
+     "no": 23,
+     "yes": 23
+    },
+    "balanced": true,
+    "complete_pairs": 23,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_075",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_077",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_078",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_081",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_086",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_088",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_089",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_091",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_092",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_095",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_096",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_098",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_099",
+   "n_lesions": 1,
+   "n_qa": 1,
+   "kinds": {
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_100",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_102",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_103",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_104",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_106",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_107",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_108",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_111",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_112",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_114",
+   "n_lesions": 1,
+   "n_qa": 0,
+   "kinds": {},
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_115",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_117",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_118",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_119",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_120",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_122",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_124",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_126",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_127",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_129",
+   "n_lesions": 2,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_131",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_133",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_134",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_136",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_137",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_138",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_139",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_140",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_141",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_142",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_143",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_144",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_145",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_148",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_149",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_154",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_155",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_157",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_159",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_161",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_162",
+   "n_lesions": 2,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_163",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_164",
+   "n_lesions": 1,
+   "n_qa": 7,
+   "kinds": {
+    "growth_contact": 6,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_165",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_166",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_168",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_169",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_171",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_172",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_175",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_176",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_181",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_185",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_187",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_192",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_193",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_194",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_196",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_201",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_202",
+   "n_lesions": 1,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_203",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_205",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_206",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_207",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_208",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_212",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_213",
+   "n_lesions": 1,
+   "n_qa": 2,
+   "kinds": {
+    "growth_contact": 2
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_214",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 6
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_215",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_216",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_217",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_218",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "colon_219",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  }
+ ],
+ "failures": []
+}

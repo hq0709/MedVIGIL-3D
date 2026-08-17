@@ -1,0 +1,2408 @@
+{
+ "stats": [
+  {
+   "volume_id": "liver_0",
+   "n_lesions": 3,
+   "n_qa": 32,
+   "kinds": {
+    "growth_contact": 28,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_1",
+   "n_lesions": 3,
+   "n_qa": 39,
+   "kinds": {
+    "growth_contact": 36,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 36,
+    "label_counts": {
+     "no": 18,
+     "yes": 18
+    },
+    "balanced": true,
+    "complete_pairs": 18,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_10",
+   "n_lesions": 3,
+   "n_qa": 27,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_100",
+   "n_lesions": 3,
+   "n_qa": 31,
+   "kinds": {
+    "nearest_on_growth": 2,
+    "growth_contact": 28,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_101",
+   "n_lesions": 3,
+   "n_qa": 26,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_102",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_103",
+   "n_lesions": 2,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_104",
+   "n_lesions": 3,
+   "n_qa": 33,
+   "kinds": {
+    "growth_contact": 30,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_105",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_106",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_107",
+   "n_lesions": 3,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_108",
+   "n_lesions": 3,
+   "n_qa": 31,
+   "kinds": {
+    "growth_contact": 30,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_109",
+   "n_lesions": 3,
+   "n_qa": 44,
+   "kinds": {
+    "growth_contact": 40,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 40,
+    "label_counts": {
+     "no": 20,
+     "yes": 20
+    },
+    "balanced": true,
+    "complete_pairs": 20,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_11",
+   "n_lesions": 3,
+   "n_qa": 27,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_110",
+   "n_lesions": 3,
+   "n_qa": 41,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_111",
+   "n_lesions": 3,
+   "n_qa": 30,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_112",
+   "n_lesions": 3,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_113",
+   "n_lesions": 3,
+   "n_qa": 40,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_114",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_115",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_116",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_117",
+   "n_lesions": 3,
+   "n_qa": 60,
+   "kinds": {
+    "growth_contact": 58,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 58,
+    "label_counts": {
+     "no": 29,
+     "yes": 29
+    },
+    "balanced": true,
+    "complete_pairs": 29,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_118",
+   "n_lesions": 3,
+   "n_qa": 28,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_119",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_12",
+   "n_lesions": 1,
+   "n_qa": 3,
+   "kinds": {
+    "growth_contact": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_120",
+   "n_lesions": 3,
+   "n_qa": 31,
+   "kinds": {
+    "growth_contact": 28,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_121",
+   "n_lesions": 3,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_122",
+   "n_lesions": 3,
+   "n_qa": 36,
+   "kinds": {
+    "growth_contact": 32,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 32,
+    "label_counts": {
+     "no": 16,
+     "yes": 16
+    },
+    "balanced": true,
+    "complete_pairs": 16,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_123",
+   "n_lesions": 3,
+   "n_qa": 28,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_124",
+   "n_lesions": 3,
+   "n_qa": 41,
+   "kinds": {
+    "growth_contact": 40,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 40,
+    "label_counts": {
+     "no": 20,
+     "yes": 20
+    },
+    "balanced": true,
+    "complete_pairs": 20,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_125",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_126",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_127",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_128",
+   "n_lesions": 3,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_129",
+   "n_lesions": 3,
+   "n_qa": 41,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_13",
+   "n_lesions": 3,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 20,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_130",
+   "n_lesions": 3,
+   "n_qa": 32,
+   "kinds": {
+    "growth_contact": 30,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_14",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_15",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_16",
+   "n_lesions": 3,
+   "n_qa": 48,
+   "kinds": {
+    "growth_contact": 46,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 46,
+    "label_counts": {
+     "no": 23,
+     "yes": 23
+    },
+    "balanced": true,
+    "complete_pairs": 23,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_17",
+   "n_lesions": 3,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_18",
+   "n_lesions": 3,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_19",
+   "n_lesions": 3,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_2",
+   "n_lesions": 1,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 14,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_20",
+   "n_lesions": 3,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_21",
+   "n_lesions": 3,
+   "n_qa": 44,
+   "kinds": {
+    "growth_contact": 42,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 42,
+    "label_counts": {
+     "no": 21,
+     "yes": 21
+    },
+    "balanced": true,
+    "complete_pairs": 21,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_22",
+   "n_lesions": 1,
+   "n_qa": 25,
+   "kinds": {
+    "growth_contact": 24,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_23",
+   "n_lesions": 1,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_24",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_25",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_26",
+   "n_lesions": 3,
+   "n_qa": 36,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_27",
+   "n_lesions": 3,
+   "n_qa": 53,
+   "kinds": {
+    "growth_contact": 50,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 50,
+    "label_counts": {
+     "no": 25,
+     "yes": 25
+    },
+    "balanced": true,
+    "complete_pairs": 25,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_28",
+   "n_lesions": 3,
+   "n_qa": 36,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_29",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_3",
+   "n_lesions": 1,
+   "n_qa": 9,
+   "kinds": {
+    "growth_contact": 8,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_30",
+   "n_lesions": 1,
+   "n_qa": 17,
+   "kinds": {
+    "growth_contact": 16,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_31",
+   "n_lesions": 3,
+   "n_qa": 50,
+   "kinds": {
+    "growth_contact": 46,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 46,
+    "label_counts": {
+     "no": 23,
+     "yes": 23
+    },
+    "balanced": true,
+    "complete_pairs": 23,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_32",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_33",
+   "n_lesions": 3,
+   "n_qa": 37,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_34",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_35",
+   "n_lesions": 3,
+   "n_qa": 32,
+   "kinds": {
+    "growth_contact": 30,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_36",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_37",
+   "n_lesions": 3,
+   "n_qa": 47,
+   "kinds": {
+    "growth_contact": 44,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 44,
+    "label_counts": {
+     "no": 22,
+     "yes": 22
+    },
+    "balanced": true,
+    "complete_pairs": 22,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_38",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_39",
+   "n_lesions": 1,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 12,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_4",
+   "n_lesions": 3,
+   "n_qa": 37,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_40",
+   "n_lesions": 3,
+   "n_qa": 45,
+   "kinds": {
+    "growth_contact": 42,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 42,
+    "label_counts": {
+     "no": 21,
+     "yes": 21
+    },
+    "balanced": true,
+    "complete_pairs": 21,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_41",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_42",
+   "n_lesions": 2,
+   "n_qa": 23,
+   "kinds": {
+    "growth_contact": 22,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_43",
+   "n_lesions": 1,
+   "n_qa": 10,
+   "kinds": {
+    "growth_contact": 8,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 8,
+    "label_counts": {
+     "no": 4,
+     "yes": 4
+    },
+    "balanced": true,
+    "complete_pairs": 4,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_44",
+   "n_lesions": 2,
+   "n_qa": 31,
+   "kinds": {
+    "growth_contact": 28,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_45",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_46",
+   "n_lesions": 3,
+   "n_qa": 47,
+   "kinds": {
+    "growth_contact": 44,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 44,
+    "label_counts": {
+     "no": 22,
+     "yes": 22
+    },
+    "balanced": true,
+    "complete_pairs": 22,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_47",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_48",
+   "n_lesions": 3,
+   "n_qa": 27,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_49",
+   "n_lesions": 3,
+   "n_qa": 26,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_5",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_50",
+   "n_lesions": 1,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 20,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 20,
+    "label_counts": {
+     "no": 10,
+     "yes": 10
+    },
+    "balanced": true,
+    "complete_pairs": 10,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_51",
+   "n_lesions": 3,
+   "n_qa": 40,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_52",
+   "n_lesions": 2,
+   "n_qa": 24,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_53",
+   "n_lesions": 2,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_54",
+   "n_lesions": 1,
+   "n_qa": 4,
+   "kinds": {
+    "growth_contact": 2,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 2,
+    "label_counts": {
+     "no": 1,
+     "yes": 1
+    },
+    "balanced": true,
+    "complete_pairs": 1,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_55",
+   "n_lesions": 1,
+   "n_qa": 11,
+   "kinds": {
+    "growth_contact": 10,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_56",
+   "n_lesions": 2,
+   "n_qa": 32,
+   "kinds": {
+    "growth_contact": 30,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_57",
+   "n_lesions": 2,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_58",
+   "n_lesions": 3,
+   "n_qa": 29,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_59",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_6",
+   "n_lesions": 3,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_60",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_61",
+   "n_lesions": 2,
+   "n_qa": 12,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_62",
+   "n_lesions": 2,
+   "n_qa": 21,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_63",
+   "n_lesions": 3,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_64",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_65",
+   "n_lesions": 1,
+   "n_qa": 5,
+   "kinds": {
+    "growth_contact": 4,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_66",
+   "n_lesions": 3,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_67",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_68",
+   "n_lesions": 1,
+   "n_qa": 8,
+   "kinds": {
+    "growth_contact": 6,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 6,
+    "label_counts": {
+     "no": 3,
+     "yes": 3
+    },
+    "balanced": true,
+    "complete_pairs": 3,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_69",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_7",
+   "n_lesions": 3,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_70",
+   "n_lesions": 3,
+   "n_qa": 34,
+   "kinds": {
+    "growth_contact": 32,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 32,
+    "label_counts": {
+     "no": 16,
+     "yes": 16
+    },
+    "balanced": true,
+    "complete_pairs": 16,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_71",
+   "n_lesions": 3,
+   "n_qa": 50,
+   "kinds": {
+    "growth_contact": 48,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 48,
+    "label_counts": {
+     "no": 24,
+     "yes": 24
+    },
+    "balanced": true,
+    "complete_pairs": 24,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_72",
+   "n_lesions": 3,
+   "n_qa": 28,
+   "kinds": {
+    "growth_contact": 24,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 24,
+    "label_counts": {
+     "no": 12,
+     "yes": 12
+    },
+    "balanced": true,
+    "complete_pairs": 12,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_73",
+   "n_lesions": 1,
+   "n_qa": 6,
+   "kinds": {
+    "growth_contact": 4,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 4,
+    "label_counts": {
+     "no": 2,
+     "yes": 2
+    },
+    "balanced": true,
+    "complete_pairs": 2,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_74",
+   "n_lesions": 2,
+   "n_qa": 37,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_75",
+   "n_lesions": 3,
+   "n_qa": 22,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_76",
+   "n_lesions": 3,
+   "n_qa": 46,
+   "kinds": {
+    "growth_contact": 44,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 44,
+    "label_counts": {
+     "no": 22,
+     "yes": 22
+    },
+    "balanced": true,
+    "complete_pairs": 22,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_77",
+   "n_lesions": 2,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_78",
+   "n_lesions": 3,
+   "n_qa": 42,
+   "kinds": {
+    "growth_contact": 38,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 38,
+    "label_counts": {
+     "no": 19,
+     "yes": 19
+    },
+    "balanced": true,
+    "complete_pairs": 19,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_79",
+   "n_lesions": 3,
+   "n_qa": 31,
+   "kinds": {
+    "growth_contact": 28,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_8",
+   "n_lesions": 3,
+   "n_qa": 15,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_80",
+   "n_lesions": 2,
+   "n_qa": 25,
+   "kinds": {
+    "growth_contact": 22,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 22,
+    "label_counts": {
+     "no": 11,
+     "yes": 11
+    },
+    "balanced": true,
+    "complete_pairs": 11,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_81",
+   "n_lesions": 1,
+   "n_qa": 16,
+   "kinds": {
+    "growth_contact": 14,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 14,
+    "label_counts": {
+     "no": 7,
+     "yes": 7
+    },
+    "balanced": true,
+    "complete_pairs": 7,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_82",
+   "n_lesions": 1,
+   "n_qa": 18,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_83",
+   "n_lesions": 1,
+   "n_qa": 1,
+   "kinds": {
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 0,
+    "label_counts": {},
+    "balanced": true,
+    "complete_pairs": 0,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_84",
+   "n_lesions": 3,
+   "n_qa": 36,
+   "kinds": {
+    "growth_contact": 34,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_85",
+   "n_lesions": 2,
+   "n_qa": 28,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_86",
+   "n_lesions": 2,
+   "n_qa": 13,
+   "kinds": {
+    "growth_contact": 10,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 10,
+    "label_counts": {
+     "no": 5,
+     "yes": 5
+    },
+    "balanced": true,
+    "complete_pairs": 5,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_87",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_88",
+   "n_lesions": 3,
+   "n_qa": 28,
+   "kinds": {
+    "growth_contact": 26,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 26,
+    "label_counts": {
+     "no": 13,
+     "yes": 13
+    },
+    "balanced": true,
+    "complete_pairs": 13,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_89",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_9",
+   "n_lesions": 3,
+   "n_qa": 20,
+   "kinds": {
+    "growth_contact": 18,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 18,
+    "label_counts": {
+     "no": 9,
+     "yes": 9
+    },
+    "balanced": true,
+    "complete_pairs": 9,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_90",
+   "n_lesions": 3,
+   "n_qa": 45,
+   "kinds": {
+    "growth_contact": 44,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 44,
+    "label_counts": {
+     "no": 22,
+     "yes": 22
+    },
+    "balanced": true,
+    "complete_pairs": 22,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_91",
+   "n_lesions": 0,
+   "n_qa": 0
+  },
+  {
+   "volume_id": "liver_92",
+   "n_lesions": 3,
+   "n_qa": 34,
+   "kinds": {
+    "growth_contact": 30,
+    "nearest_on_growth": 3,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 30,
+    "label_counts": {
+     "no": 15,
+     "yes": 15
+    },
+    "balanced": true,
+    "complete_pairs": 15,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_93",
+   "n_lesions": 3,
+   "n_qa": 58,
+   "kinds": {
+    "growth_contact": 56,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 56,
+    "label_counts": {
+     "no": 28,
+     "yes": 28
+    },
+    "balanced": true,
+    "complete_pairs": 28,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_94",
+   "n_lesions": 3,
+   "n_qa": 31,
+   "kinds": {
+    "growth_contact": 28,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 28,
+    "label_counts": {
+     "no": 14,
+     "yes": 14
+    },
+    "balanced": true,
+    "complete_pairs": 14,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_95",
+   "n_lesions": 1,
+   "n_qa": 14,
+   "kinds": {
+    "growth_contact": 12,
+    "nearest_on_growth": 1,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 12,
+    "label_counts": {
+     "no": 6,
+     "yes": 6
+    },
+    "balanced": true,
+    "complete_pairs": 6,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_96",
+   "n_lesions": 3,
+   "n_qa": 19,
+   "kinds": {
+    "growth_contact": 16,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 16,
+    "label_counts": {
+     "no": 8,
+     "yes": 8
+    },
+    "balanced": true,
+    "complete_pairs": 8,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_97",
+   "n_lesions": 3,
+   "n_qa": 35,
+   "kinds": {
+    "growth_contact": 34,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 34,
+    "label_counts": {
+     "no": 17,
+     "yes": 17
+    },
+    "balanced": true,
+    "complete_pairs": 17,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_98",
+   "n_lesions": 3,
+   "n_qa": 41,
+   "kinds": {
+    "growth_contact": 40,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 40,
+    "label_counts": {
+     "no": 20,
+     "yes": 20
+    },
+    "balanced": true,
+    "complete_pairs": 20,
+    "orphans": 0
+   }
+  },
+  {
+   "volume_id": "liver_99",
+   "n_lesions": 3,
+   "n_qa": 35,
+   "kinds": {
+    "growth_contact": 32,
+    "nearest_on_growth": 2,
+    "resection_volume": 1
+   },
+   "balance": {
+    "growth_contact": 32,
+    "label_counts": {
+     "no": 16,
+     "yes": 16
+    },
+    "balanced": true,
+    "complete_pairs": 16,
+    "orphans": 0
+   }
+  }
+ ],
+ "failures": []
+}

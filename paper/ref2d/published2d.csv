@@ -1,0 +1,6 @@
+# Published values from the conference version, held here so the recomputation
+# is checked rather than described. Add rows as the published table is
+# transcribed; build2d.py asserts every row present.
+model,mcs,source
+claude-opus-4-7,69.2,"Table 5, strongest audited model"
+radiologist-R4,83.3,"reader reference row"

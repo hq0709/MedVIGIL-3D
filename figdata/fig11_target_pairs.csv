@@ -1,0 +1,9 @@
+model,arm,n_pairs,differentiation_rate,n_differentiated,direction_acc,ci_lo,ci_hi
+Qwen2.5-VL-32B,sighted,600,49.0,294,56.5,50.7,62.0
+Qwen2.5-VL-32B,blind,600,0.2,1,0.0,0.0,79.3
+InternVL3-8B,sighted,600,42.0,252,53.2,47.0,59.2
+InternVL3-8B,blind,600,0.0,0,,,
+M3D-LaMed-Phi3-4B,sighted,600,20.8,125,59.2,50.4,67.4
+M3D-LaMed-Phi3-4B,blind,600,0.0,0,,,
+Qwen2.5-VL-7B,sighted,600,0.0,0,,,
+Qwen2.5-VL-7B,blind,600,0.0,0,,,
