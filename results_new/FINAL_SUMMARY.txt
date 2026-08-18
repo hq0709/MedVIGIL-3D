@@ -1,0 +1,147 @@
+
+
+====================================================================================================
+0. WHAT A SINGLE NUMBER CAN SCORE -- confounds per reporting unit
+====================================================================================================
+reporting unit                    n   growth-only   gap-only
+------------------------------------------------------------
+full common subset             2262         69.2%      50.0%
+growth-matched subset          1368         50.8%      72.0%
+  of which complete pairs       726         83.7%      50.0%
+  of which singletons           642         50.0%      96.9%
+
+Best single-threshold rule on that number alone, threshold chosen on the same items, so both
+columns are upper bounds. Matching on growth removed the growth cue and created a gap cue.
+
+
+====================================================================================================
+1. WHAT THE MODEL WAS SHOWN -- input audit of the four conditions (pixels, no model)
+====================================================================================================
+condition        n  lesion shown  target shown    both  red drawn  cyan drawn
+-----------------------------------------------------------------------------
+plain         1368         58.0%         92.5%   54.2%       0.0%        0.0%
+bestslice     1368        100.0%        100.0%  100.0%       0.0%        0.0%
+overlay       1368         58.0%         92.5%   54.2%      58.0%       92.5%
+identified    1368        100.0%        100.0%  100.0%     100.0%      100.0%
+
+`plain` is the published condition. The lesion the question names is absent from every slice shown for 42% of probes.
+`overlay` promises a red outline in its legend for 100% of probes and draws one for 58%.
+
+
+====================================================================================================
+2. SOLVABILITY CEILING (E2) -- same probes, no image except where stated
+====================================================================================================
+model             arm                       n     acc  pairs  acc|pairs   same   modal answer
+----------------------------------------------------------------------------------------------------
+Qwen2.5-VL-7B     numeric-oracle         1368  100.0%    363     100.0%     0%   no 50%
+Qwen2.5-VL-7B     numeric-oracle-gen     1368  100.0%    363     100.0%     0%   no 50%
+Qwen2.5-VL-7B     text-oracle            1368   50.0%    363      50.0%   100%   no 100%
+Qwen2.5-VL-7B     text-oracle-gen        1368   50.0%    363      50.0%   100%   no 100%
+Qwen2.5-VL-7B     text-oracle-blind      1368   50.0%    363      50.0%   100%   no 100%
+InternVL3-8B      numeric-oracle         1368  100.0%    363     100.0%     0%   no 50%
+InternVL3-8B      numeric-oracle-gen     1368  100.0%    363     100.0%     0%   no 50%
+InternVL3-8B      text-oracle            1368   50.0%    363      50.0%   100%   yes 100%
+InternVL3-8B      text-oracle-gen        1368   50.0%    363      50.0%   100%   yes 100%
+InternVL3-8B      text-oracle-blind      1368   50.0%    363      50.0%   100%   yes 100%
+Qwen3-VL-8B       numeric-oracle         1368  100.0%    363     100.0%     0%   no 50%
+Qwen3-VL-8B       numeric-oracle-gen     1368  100.0%    363     100.0%     0%   no 50%
+Qwen3-VL-8B       text-oracle            1368   50.0%    363      50.0%   100%   yes 100%
+Qwen3-VL-8B       text-oracle-gen        1368   50.0%    363      50.0%   100%   yes 100%
+Qwen3-VL-8B       text-oracle-blind      1368   50.1%    363      50.1%   100%   yes 100%
+Qwen2.5-VL-32B    numeric-oracle         1368  100.0%    363     100.0%     0%   no 50%
+Qwen2.5-VL-32B    numeric-oracle-gen     1368  100.0%    363     100.0%     0%   no 50%
+Qwen2.5-VL-32B    text-oracle            1368   51.1%    363      50.0%   100%   no 99%
+Qwen2.5-VL-32B    text-oracle-gen        1368   18.0%    363      12.5%    75%   unparsed 82%
+Qwen2.5-VL-32B    text-oracle-blind      1368   61.7%    363      51.1%    98%   no 88%
+Qwen2.5-VL-72B    numeric-oracle         1368  100.0%    363     100.0%     0%   no 50%
+Qwen2.5-VL-72B    text-oracle            1368   52.4%    363      51.8%    96%   yes 98%
+Qwen2.5-VL-72B    text-oracle-gen        1368   52.4%    363      51.8%    96%   yes 98%
+reference rule    geometry-oracle        8476  100.0%   4238     100.0%     0%   no 50%
+
+`numeric-oracle` is the same comparison with the clinical wording removed. Read it against `text-oracle`:
+the arithmetic is available, and the wording is what removes it. `acc|pairs` is the endpoint that
+cannot be reached through gap magnitude.
+
+
+====================================================================================================
+3. IDENTIFICATION CONTROL (E1) -- growth-matched subset, four organs
+====================================================================================================
+model             condition        n     acc  pairs  acc|pairs  acc|singl.   same  yes-rate
+-----------------------------------------------------------------------------------------------------
+Qwen2.5-VL-7B     plain         1368   50.0%    363      50.0%       50.0%   100%      0.0%
+Qwen2.5-VL-7B     bestslice     1368   50.0%    363      50.0%       50.0%   100%      0.0%
+Qwen2.5-VL-7B     overlay       1368   50.0%    363      50.0%       50.0%   100%      0.0%
+Qwen2.5-VL-7B     identified    1368   50.0%    363      50.0%       50.0%   100%      0.0%
+
+InternVL3-8B      plain         1368   50.0%    363      58.5%       40.3%    81%     27.2%
+InternVL3-8B      bestslice     1368   50.3%    363      57.2%       42.5%    83%     28.8%
+InternVL3-8B      overlay       1368   49.6%    363      55.0%       43.5%    88%     75.7%
+InternVL3-8B      identified    1368   50.4%    363      53.6%       46.7%    91%     92.0%
+
+Qwen3-VL-8B       plain         1368   48.2%    363      52.9%       43.0%    94%     79.7%
+Qwen3-VL-8B       bestslice     1368   49.9%    363      52.5%       46.9%    94%     88.5%
+Qwen3-VL-8B       overlay       1368   49.5%    363      56.6%       41.4%    86%     54.8%
+Qwen3-VL-8B       identified    1368   52.4%    363      57.4%       46.7%    85%     72.9%
+
+Qwen2.5-VL-32B    plain         1368   50.7%    363      54.7%       46.1%    90%     51.5%
+Qwen2.5-VL-32B    bestslice     1368   51.2%    363      54.5%       47.5%    89%     53.9%
+Qwen2.5-VL-32B    overlay       1368   51.0%    363      51.0%       50.9%    91%     62.5%
+Qwen2.5-VL-32B    identified    1368   52.6%    363      50.8%       54.7%    92%     55.7%
+
+Qwen2.5-VL-72B    plain         1368   49.2%    363      55.5%       42.1%    89%     70.4%
+Qwen2.5-VL-72B    identified    1368   50.0%    363      50.3%       49.7%    99%     95.0%
+
+Intervals: analysis/identification_control_ci.py (volume-clustered bootstrap, B=10,000).
+`acc|singl.` is accuracy on probes whose matched partner the growth matching dropped; gap correlates with the
+label there, so a gain confined to that column is a proximity cue rather than the counterfactual.
+
+
+====================================================================================================
+3b. `overlay` split by whether the red outline was actually drawn
+====================================================================================================
+The legend sentence is added per condition, so in `overlay` every probe is told the lesion is
+outlined in red while 42% of them show no red pixel. Splitting on the recorded geometry turns that
+flaw into the comparison it accidentally is: same condition, same legend, annotation present or not.
+
+model             red outline        n     acc  pairs  acc|pairs   same
+-----------------------------------------------------------------------
+Qwen2.5-VL-7B     drawn            793   49.4%    212      50.0%   100%
+Qwen2.5-VL-7B     absent           575   50.8%    151      50.0%   100%
+InternVL3-8B      drawn            793   49.3%    212      54.5%    89%
+InternVL3-8B      absent           575   49.9%    151      55.6%    86%
+Qwen3-VL-8B       drawn            793   50.1%    212      57.3%    84%
+Qwen3-VL-8B       absent           575   48.7%    151      55.6%    87%
+Qwen2.5-VL-32B    drawn            793   50.7%    212      50.0%    93%
+Qwen2.5-VL-32B    absent           575   51.3%    151      52.3%    89%
+
+
+====================================================================================================
+4. SUB-TASK DECOMPOSITION (E3) -- `identified` rendering, four-way, chance 25%
+====================================================================================================
+model             sub-task                 n     acc   modal answer
+----------------------------------------------------------------------
+Qwen2.5-VL-7B     localise               300   67.7%   pancreas 39%
+Qwen2.5-VL-7B     name                   300   34.3%   aorta 12%
+Qwen2.5-VL-7B     distance               300   25.7%   15 57%
+InternVL3-8B      localise               300   41.0%   pancreas 63%
+InternVL3-8B      name                   300   31.3%   inferior vena cava 14%
+InternVL3-8B      distance               300   26.3%   15 49%
+Qwen3-VL-8B       localise               300   81.7%   pancreas 29%
+Qwen3-VL-8B       name                   300   60.0%   aorta 11%
+Qwen3-VL-8B       distance               300   23.0%   25 67%
+Qwen2.5-VL-32B    localise               300   76.0%   pancreas 44%
+Qwen2.5-VL-32B    name                   300   45.0%   small bowel 12%
+Qwen2.5-VL-32B    distance               300   28.3%   15 99%
+
+
+====================================================================================================
+5. NATIVE VOLUMETRIC MODELS (E6) -- from files already in the repo
+====================================================================================================
+model                   controls native  controls montage  recovery
+-------------------------------------------------------------------
+M3D-LaMed-Phi3-4B                 76.4%             47.1%    +29.3
+M3D-LaMed-Llama2-7B               57.1%             48.6%     +8.6
+Med3DVLM-7B                       57.1%             57.1%     +0.0
+Montage-input models score 100% on the same controls. Native framing recovers M3D-LaMed-Phi3 by
+29.3 points, not the 41 quoted in run_multimodel.py; Med3DVLM answers "no" to all 140 controls under both
+framings. On the matched subset all three stay at chance under either framing.

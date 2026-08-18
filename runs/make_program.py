@@ -44,7 +44,7 @@ R = "results_new"
 # measured reservations; axial25 is 6.7 MPx and roughly 8,500 vision tokens
 VRAM = {"qwen32b": 70, "internvl": 20, "qwen3vl": 20, "qwen7b": 20, "aria": 56}
 VRAM_RICH = {("internvl", "axial25"): 44, ("internvl", "slices9"): 30,
-             ("qwen32b", "axial25"): 78, ("qwen32b", "slices9"): 74}
+             ("qwen32b", "axial25"): 73, ("qwen32b", "slices9"): 74}
 
 
 def job(label, cmd, vram):

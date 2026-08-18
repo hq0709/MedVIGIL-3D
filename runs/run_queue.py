@@ -209,6 +209,20 @@ def main() -> None:
                 for g in cands:
                     if g in budget and want <= budget[g]:
                         queue.remove(j)
+                        # Re-check the output at claim time, not only at start-up.
+                        # The claim is released when a job finishes so failures
+                        # stay retryable, which means a queue on the other card
+                        # can claim a job the first card has since COMPLETED and
+                        # run it again. Measured: GPU 6 spent the tail of the E1
+                        # wave re-running work GPU 7 had already finished, while
+                        # the next wave waited on it.
+                        if args.skip_existing:
+                            fin = repo / j["out"]
+                            if fin.exists() and fin.stat().st_size > 0:
+                                print(f"skip (done elsewhere): {j['label']}",
+                                      flush=True)
+                                started = True
+                                break
                         # Claim it. Another queue on another card may be reading
                         # the same job list; whoever creates the lock owns the
                         # job, and the loser simply moves on.

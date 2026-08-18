@@ -1,0 +1,107 @@
+
+====================================================================================================
+1. DEGENERATE RESPONDERS
+  CLAIM: 7 models put >=96% of answers on one token, so their 50.0% is entailed
+----------------------------------------------------------------------------------------------------
+model                        acc  modal share    entailed window  informative?
+SmolVLM2-2.2B              50.0%       100.0%       [50.0, 50.0]no -- entailed
+Qwen2.5-VL-7B              50.0%       100.0%       [50.0, 50.0]no -- entailed
+Idefics3-8B                50.0%       100.0%       [50.0, 50.0]no -- entailed
+Med3DVLM-7B                50.0%       100.0%       [50.0, 50.0]no -- entailed
+Qwen2.5-VL-3B              50.0%        99.6%       [49.6, 50.4]no -- entailed
+LLaVA-OneVision-7B         49.5%        99.0%       [49.0, 51.0]no -- entailed
+InternVL3-14B              50.1%        96.5%       [46.5, 53.5]no -- entailed
+M3D-LaMed-Llama2-7B        50.1%        80.5%       [30.5, 69.5]           yes
+M3D-LaMed-Phi3-4B          49.9%        80.1%       [30.1, 69.9]           yes
+Qwen3-VL-8B                48.7%        79.5%       [29.5, 70.5]           yes
+InternVL3-8B               50.1%        72.6%       [22.6, 77.4]           yes
+Pixtral-12B                51.0%        61.3%       [11.3, 88.7]           yes
+Qwen2.5-VL-32B             50.6%        51.5%        [1.5, 98.5]           yes
+
+  FOUND: 7 models at >=96% modal share on THIS subset.
+  The same count on the full 2,262-probe corpus is 6: InternVL3-14B is 93.9% there
+  and 96.5% here. The reported accuracies come from the matched subset, so the
+  exclusion has to be judged on the matched subset too.
+  A constant answer on the 684/684 balanced subset scores exactly 50.0% by arithmetic.
+
+====================================================================================================
+2. STRATIFIED CONCLUSION
+  CLAIM: drop degenerate responders and the M3D channel failures; the 5 that remain still all contain 50
+----------------------------------------------------------------------------------------------------
+model                        acc   modal share
+Qwen3-VL-8B                48.7%         79.5%
+InternVL3-8B               50.1%         72.6%
+Pixtral-12B                51.0%         61.3%
+Qwen2.5-VL-32B             50.6%         51.5%
+
+  4 models survive both exclusions.
+
+====================================================================================================
+3. AUROC OF THE DECISION VARIABLE
+  CLAIM: 0.470-0.522 across models, the two excluding 0.5 lying BELOW it
+----------------------------------------------------------------------------------------------------
+model                       AUROC            95% CI      n
+SmolVLM2-2.2B               0.484  [0.455,0.516]   1368
+Qwen2.5-VL-7B               0.480  [0.449,0.512]   1368
+Idefics3-8B                 0.511  [0.481,0.541]   1368
+Med3DVLM-7B                 0.470  [0.438,0.500]   1368
+Qwen2.5-VL-3B               0.497  [0.470,0.526]   1368
+LLaVA-OneVision-7B          0.488  [0.456,0.517]   1368
+InternVL3-14B               0.522  [0.491,0.552]   1368
+M3D-LaMed-Llama2-7B         0.481  [0.450,0.512]   1368
+M3D-LaMed-Phi3-4B           0.475  [0.444,0.503]   1368
+Qwen3-VL-8B                 0.490  [0.459,0.520]   1368
+InternVL3-8B                0.492  [0.459,0.521]   1368
+Pixtral-12B                 0.506  [0.476,0.537]   1368
+Qwen2.5-VL-32B              0.514  [0.482,0.544]   1368
+
+  FOUND range 0.470-0.522
+
+====================================================================================================
+4. WHAT THE DECISION VARIABLE TRACKS
+  CLAIM: image fixed / text varied -> 0.775-0.891; text fixed / image varied -> 0.467-0.528
+----------------------------------------------------------------------------------------------------
+  image fixed, text varied = the two members of a matched pair: same
+  rendering, growth amount differs, labels opposite.
+  text fixed, image varied = items sharing (target, growth amount)
+  across different volumes, so the sentence is identical.
+
+model                     image fixed            95% CI   text fixed            95% CI  n pairs  n text
+SmolVLM2-2.2B                   0.390  [0.344,0.435]        0.490  [0.407,0.570]      363     182
+Qwen2.5-VL-7B                   0.775  [0.738,0.814]        0.513  [0.429,0.601]      363     182
+Idefics3-8B                     0.879  [0.843,0.909]        0.462  [0.380,0.549]      363     182
+Med3DVLM-7B                     0.737  [0.691,0.781]        0.498  [0.412,0.585]      363     182
+Qwen2.5-VL-3B                   0.539  [0.506,0.572]        0.495  [0.415,0.574]      363     182
+LLaVA-OneVision-7B              0.610  [0.574,0.647]        0.516  [0.428,0.599]      363     182
+InternVL3-14B                   0.787  [0.752,0.820]        0.512  [0.430,0.597]      363     182
+M3D-LaMed-Llama2-7B             0.419  [0.369,0.468]        0.509  [0.424,0.591]      363     182
+M3D-LaMed-Phi3-4B               0.470  [0.421,0.521]        0.498  [0.415,0.579]      363     182
+Qwen3-VL-8B                     0.891  [0.862,0.916]        0.525  [0.444,0.613]      363     182
+InternVL3-8B                    0.855  [0.822,0.887]        0.529  [0.445,0.612]      363     182
+Pixtral-12B                     0.548  [0.504,0.594]        0.488  [0.402,0.573]      363     182
+Qwen2.5-VL-32B                  0.853  [0.822,0.886]        0.504  [0.421,0.588]      363     182
+
+====================================================================================================
+5. DIFFICULTY STRUCTURE
+  CLAIM: |growth - gap| median 5.06 mm on the matched subset, no easy stratum
+----------------------------------------------------------------------------------------------------
+  |growth - gap| over the matched subset (n=1368):
+    median 5.06 mm   mean 5.59   p10 3.30   p90 9.13   max 12.74
+     2-  5 mm:   678 probes (49.6%)
+     5- 10 mm:   601 probes (43.9%)
+    10- 20 mm:    89 probes (6.5%)
+
+====================================================================================================
+6. THE margin=2.0 GATE
+  CLAIM: it removes every gap <= 2 mm case, i.e. the clinically nearest ones
+----------------------------------------------------------------------------------------------------
+  counterfactual_qa.growth_pairs keeps a (lesion, target) pair only when
+  margin < gap <= max_gap_mm, with margin=2.0 and max_gap_mm=40.0.
+
+  gap_mm over the whole emitted corpus (n=2262): min 2.04  max 40.00
+    probes with gap <= 2.0 mm : 0
+    probes with gap  > 40 mm  : 0
+  Both are zero by construction, so the corpus contains no lesion already touching
+  or nearly touching its target, and none far from it. Whether that excludes the
+  clinically most relevant cases is a claim about clinical relevance, not about
+  the data -- but the exclusion itself is real and is visible here.
