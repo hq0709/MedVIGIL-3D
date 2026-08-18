@@ -1,5 +1,18 @@
 # MedVIGIL-3D — volumetric evaluation harness
 
+## Two halves
+
+| | where | what it is |
+|---|---|---|
+| **Paper** | [`paper/`](paper) · [`analysis/`](analysis) · `growth_matched.py`, `verify_paper_tables.py`, `make_figure_data.py`, `check_integrity.py`, `analyse_*.py` | the manuscript and the code that recomputes every number in it. Runs on the committed data — no imaging, no weights, no GPU. Start at [`paper/README.md`](paper/README.md). |
+| **Experiments** | [`spatialgen/`](spatialgen) · [`runs/`](runs) | probe generation, rendering, inference, and the orchestration that ran it. Needs the external data below. Start at [`spatialgen/README.md`](spatialgen/README.md) and [`runs/README.md`](runs/README.md). |
+| **Data** | — | not redistributed here. [`DATA.md`](DATA.md) is the exact recipe, with the verification steps that catch a bad copy. |
+
+The repository root is also the data root: `cfqa_*/`, `common_subset/` and the
+243 published result files are addressed relative to it, and scripts resolve it
+from their own location or from `MEDVIGIL3D_ROOT`. That is why the two halves
+live side by side rather than in separate trees.
+
 > ### ➤ Start here
 > - **[paper/SECTION_3D.md](paper/SECTION_3D.md)** — the volumetric result as it
 >   now stands, with every number recomputed from `results_new/`.
@@ -79,13 +92,17 @@ review.
 
 Two things are **not** in this repo:
 
-| What | Why | How to get it |
+| What | Size | How to get it |
 |---|---|---|
-| **MSD volumes** (`imagesTr/`, `labelsTr/`) | licensed upstream, ~100 GB | http://medicaldecathlon.com — Tasks 03, 06, 07, 10 |
-| **`cfqa_*/seg_cache/`** — TotalSegmentator anatomy masks, 593 files / 544 MB | too large to clone comfortably | regenerate with `spatialgen/run_pipeline.py`, or copy from an existing run |
+| **MSD volumes** (`imagesTr/`, `labelsTr/`) | 53 GB | [`DATA.md` §1](DATA.md) — Tasks 03, 06, 07, 10, with byte counts to verify a mirror against |
+| **`cfqa_*/seg_cache/`** — TotalSegmentator anatomy masks | 588 files | [`DATA.md` §2](DATA.md) — `--fast` (3 mm) mode, which is **not** a free choice: it reproduces the stored `gap_mm` to 0.001 mm where full resolution is off by up to 1.96 mm |
+| **model weights** | 12–295 GB | [`DATA.md` §3](DATA.md) |
+| **`render_cache/`** | 2.7 GB | optional but worth it — [`DATA.md` §4](DATA.md) |
 
 `reader_study/images/` (104 rendered PNGs) is also excluded; regenerate with
-`spatialgen/export_reader_study.py`.
+`spatialgen/export_reader_study.py`. **Read [`DATA.md`](DATA.md) before running
+anything that touches an image** — it also carries the verification step that
+catches a regenerated mask cache which no longer matches the committed labels.
 
 Everything else needed to reproduce the published tables **is** here: probe
 definitions (`cfqa_*/qa/`), the 243 result files from the completed runs, the
