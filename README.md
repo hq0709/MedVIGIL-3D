@@ -1,8 +1,12 @@
 # MedVIGIL-3D — volumetric evaluation harness
 
-> ### ➤ Start here: **[EXPERIMENTS_TO_RUN.md](EXPERIMENTS_TO_RUN.md)**
-> The experiments still needed, ranked, with exact commands and
-> acceptance criteria. Experiment 1 gates the journal submission.
+> ### ➤ Start here
+> - **[paper/SECTION_3D.md](paper/SECTION_3D.md)** — the volumetric result as it
+>   now stands, with every number recomputed from `results_new/`.
+> - **[EXPERIMENTS_REMAINING.md](EXPERIMENTS_REMAINING.md)** — what is left, why
+>   it matters, and the exact command. Two items block submission.
+> - [EXPERIMENTS_TO_RUN.md](EXPERIMENTS_TO_RUN.md) — the original programme,
+>   kept for provenance. E1–E4 and E6 are done; read it alongside the two above.
 
 Annotation-free counterfactual probing of medical vision–language models on CT.
 Probe answers are **computed** from geometry rather than annotated: given an
@@ -123,6 +127,24 @@ table exactly when the arms are split per fill.
 
 ```
 spatialgen/                     corpus generation, rendering, inference
+  run_identification_control.py the control described above, plus the ceiling
+                                arms; `selftest` asserts render parity
+  run_subtasks.py               sub-task decomposition (perceive/name/measure)
+  run_input_richness.py         how much volume is shown, annotation held fixed
+  run_inference_compute.py      chain-of-thought, self-consistency, verification
+  run_leakage.py                pretraining-overlap probes with a positive control
+  make_seg_cache.py             regenerates cfqa_*/seg_cache (lock-coordinated)
+  verify_seg_provenance.py      checks a regenerated cache against stored gap_mm
+runs/                           orchestration; job lists are regenerated, not stored
+  run_queue.py                  VRAM-aware queue, atomic claims, share-aware budget
+  make_jobs.py, make_program.py generate the job lists
+  prerender.py                  fills the render cache on CPU
+  audit_conditions.py           what each condition actually shows (pixels, no model)
+  summarise.py                  every table in one command
+  director.sh, e4_watcher.sh    wave scheduling; the 72B takes both cards when free
+results_new/                    this campaign's runs + FINAL_{SUMMARY,CI,CLAIMS}.txt
+paper/SECTION_3D.md             authoritative volumetric section
+paper/examples/                 example renderings of the input-richness arms
   run_identification_control.py the control described above
   run_cfqa.py                   counterfactual probe generation
   run_multimodel.py             multi-model montage inference
@@ -151,6 +173,18 @@ contribution list quotes two accuracy ranges that the raw data does not support
 
 ## Known state
 
+- The volumetric claim is now **located** rather than global: models perceive the
+  annotation and execute the comparison exactly, and cannot estimate distance
+  from the image. See `paper/SECTION_3D.md`. §7 of `paper/PAPER.md` predates this.
+- Seven of the thirteen models place ≥96 % of answers on one token; on a balanced
+  corpus that confines accuracy near 50 % regardless of reasoning. Four models
+  carry the claim. Do not report the thirteen as agreeing.
+- The growth-matched subset removes the growth cue and introduces a gap cue
+  (single-threshold ceiling 72.0 % against 50.0 % on the full corpus). Report the
+  endpoint each number is on.
+- The committed native-model response-channel files do not reproduce on the
+  current library stack (42.9 % against a recorded 76.4 %). See
+  EXPERIMENTS_REMAINING.md R2.
 - One model (Aria-25B-MoE) did not complete; the audited set is 13 of 14 attempted.
 - Coverage is a thin diagonal: 13 models on the counterfactual corpus, 4 on the
   ROI arms, 4 on target pairs, 2 on the trap families.

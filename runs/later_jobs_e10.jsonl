@@ -1,2 +1,0 @@
-{"label": "mm_aria_sighted", "out": "mm_aria_sighted.jsonl", "vram_gb": 56, "cmd": ["python", "spatialgen/run_multimodel.py", "--model", "rhymes-ai/Aria", "--qa", "common_subset/qa/all.jsonl", "--data-root", "/raid/home/CAMCA/hj880/msd", "--device", "cuda:0", "--out", "{OUT}"]}
-{"label": "mm_aria_blind", "out": "mm_aria_blind.jsonl", "vram_gb": 56, "cmd": ["python", "spatialgen/run_multimodel.py", "--model", "rhymes-ai/Aria", "--qa", "common_subset/qa/all.jsonl", "--data-root", "/raid/home/CAMCA/hj880/msd", "--device", "cuda:0", "--blind", "--out", "{OUT}"]}

@@ -27,7 +27,19 @@ general-purpose models fed orthogonal-view montages and native volumetric
 medical VLMs. **On a growth-matched subset where the question's numeric
 parameter carries no label information, every model sits at the 50 % chance
 level (48.7–51.0 %, all thirteen intervals containing 50) with image
-contributions from −1.3 to +1.0 pp.** Four of the thirteen cannot be scored at
+contributions from −1.3 to +1.0 pp — though seven of the thirteen place at least
+96 % of their answers on one token, which on a balanced corpus confines accuracy
+to a narrow window around 50 % whatever the model is doing, so four models carry
+the claim.** Decomposing the probe locates the failure. Models identify which
+organ holds the outlined lesion (41–82 %, chance 25 %) and execute the comparison
+the task reduces to exactly (100 %), and they cannot estimate the distance
+between the two outlined structures (23–28 %) even with a 10 mm scale bar drawn
+in the panel; their answers there collapse onto one bucket. Supplying that
+distance in text and removing the image entirely still collapses every model to a
+single constant answer, so the volumetric null has a component that is not
+visual. Giving models the annotated, joint-visibility input a radiologist is
+shown lifts none of them, and neither does scale: Qwen2.5-VL-72B sits at
+49.2–50.0 %. Four of the thirteen cannot be scored at
 all: a known-answer response-channel control shows their output is pinned to one
 answer regardless of input, and the four are not predictable from architecture —
 three are native volumetric systems and one is a general-purpose model that
@@ -114,7 +126,10 @@ compute.
    organ for the two models whose response channel is verified. On confound-free
    items every model sits at the exactly-balanced chance level (48.0–50.6 %,
    all thirteen intervals containing 50) with image contributions from −3.1 to
-   +0.7 pp — none above chance, none helped by the volume.
+   +0.7 pp — none above chance, none helped by the volume. Seven of the thirteen
+   reach that level by answering one token to almost everything, so the reading
+   is reported stratified by answer distribution rather than as thirteen
+   agreeing measurements.
 3. **Two controls the 2D suite did not require.** A known-answer *response-channel*
    control shows that **four of twelve audited models cannot answer "Is this a
    CT scan?" reliably** — all three released native volumetric medical VLMs and
@@ -513,6 +528,16 @@ GPT-4o's), i.e. the strongest language prior among the medical-tuned models.
 ---
 
 ## 7. Audit II — 3D: simulator-backed evidence
+
+> **This chapter predates the identification control, the sub-task decomposition
+> and the solvability ceiling.** Those runs change what the volumetric null
+> means — the failure is located at metric estimation, and part of it reproduces
+> with no image present — and they close the input-specification objection this
+> chapter has no answer to. The authoritative text is `paper/SECTION_3D.md`,
+> whose numbers are recomputed from `results_new/` by `runs/summarise.py`. Where
+> the two disagree, that file is correct. Sections below that report the
+> published condition remain valid as descriptions of that condition; they are
+> no longer the whole story.
 
 ### 7.1 What this audit tests, and where each part is tested
 
